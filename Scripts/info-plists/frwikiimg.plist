@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>XTBDictionaryIdentifier</key>
+  <string>com.nexhawks.XTBook.WikipediaImages.fr</string>
+  <key>XTBDictionaryScheme</key>
+  <string>frwikiimg</string>
+  <key>XTBDictionaryTypeIdentifier</key>
+  <string>com.nexhawks.XTBook.ImageComplex</string>
+  <key>XTBImageComplexImagesFile</key>
+  <string>Images</string>
+  <key>XTBDictionaryDisplayName</key>
+  <string>French Wikipedia Images</string>
+</dict>
+</plist>

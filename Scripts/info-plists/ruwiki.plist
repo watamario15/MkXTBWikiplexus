@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>XTBDictionaryIdentifier</key>
+	<string>com.nexhawks.XTBook.Wikipedia.ru</string>
+	<key>XTBDictionaryScheme</key>
+	<string>ruwiki</string>
+	<key>XTBDictionaryTypeIdentifier</key>
+	<string>com.nexhawks.XTBook.Wikiplexus</string>
+	<key>XTBWikiplexusArticlesFile</key>
+	<string>Articles</string>
+	<key>XTBWikiplexusTemplatesFile</key>
+	<string>Templates</string>
+	<key>XTBWikiplexusSiteInfoFile</key>
+	<string>SiteInfo.plist</string>
+	<key>XTBWikiplexusSearchFile</key>
+	<string>Search</string>
+	<key>XTBWikiplexusSchemeForImages</key>
+	<string>ruwikiimg</string>
+	<key>XTBDictionaryDisplayName</key>
+	<string>Russian Wikipedia</string>
+</dict>
+</plist>

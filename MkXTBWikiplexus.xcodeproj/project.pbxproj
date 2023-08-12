@@ -1,0 +1,728 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E81D837713E05F4300ECD822 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E81D837613E05F4300ECD822 /* main.cpp */; };
+		E81D837913E05F4300ECD822 /* YomiGenesis.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = E81D837813E05F4300ECD822 /* YomiGenesis.1 */; };
+		E81D838013E05FEB00ECD822 /* libmecab.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E81D837F13E05FEA00ECD822 /* libmecab.dylib */; settings = {ATTRIBUTES = (Required, ); }; };
+		E81D838313E0609800ECD822 /* CSVIO.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E81D838213E0609800ECD822 /* CSVIO.cpp */; };
+		E81D838413E0609800ECD822 /* CSVIO.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E81D838213E0609800ECD822 /* CSVIO.cpp */; };
+		E81D838713E06C8E00ECD822 /* libiconv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E81D838613E06C8D00ECD822 /* libiconv.dylib */; };
+		E81D839313E07B5A00ECD822 /* toHiragana.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E81D839213E07B5A00ECD822 /* toHiragana.cpp */; };
+		E81D839C13E0D27900ECD822 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E81D839B13E0D27900ECD822 /* main.cpp */; };
+		E81D839E13E0D27A00ECD822 /* MkXTBIndexDB.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = E81D839D13E0D27A00ECD822 /* MkXTBIndexDB.1 */; };
+		E81D83A313E0D2DE00ECD822 /* CSVIO.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E81D838213E0609800ECD822 /* CSVIO.cpp */; };
+		E81D83A413E0D2EC00ECD822 /* utils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E89B912713BF545B00BB3800 /* utils.cpp */; };
+		E81D83A613E0D3E600ECD822 /* XTBIndexDB.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E81D83A513E0D3E600ECD822 /* XTBIndexDB.cpp */; };
+		E867C4BA13C3D3C900AE0C6F /* XTBArticleGenerator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E867C4B913C3D3C900AE0C6F /* XTBArticleGenerator.cpp */; };
+		E874D36B13E800E300FB5CB2 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E874D36A13E800E300FB5CB2 /* main.cpp */; };
+		E874D36D13E800E300FB5CB2 /* MkImageComplex.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = E874D36C13E800E300FB5CB2 /* MkImageComplex.1 */; };
+		E874D37B13E8054A00FB5CB2 /* H2v2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E874D37413E8054A00FB5CB2 /* H2v2.cpp */; };
+		E874D37C13E8054A00FB5CB2 /* idct.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E874D37513E8054A00FB5CB2 /* idct.cpp */; };
+		E874D37D13E8054A00FB5CB2 /* jpegdecoder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E874D37613E8054A00FB5CB2 /* jpegdecoder.cpp */; };
+		E874D37E13E80AFB00FB5CB2 /* XTBDicDB.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E89B912E13BF769600BB3800 /* XTBDicDB.cpp */; };
+		E874D37F13E80AFE00FB5CB2 /* utils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E89B912713BF545B00BB3800 /* utils.cpp */; };
+		E874D38113E80B0C00FB5CB2 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E874D38013E80B0C00FB5CB2 /* libxml2.dylib */; };
+		E89B911813BF3CC000BB3800 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E89B911713BF3CC000BB3800 /* main.cpp */; };
+		E89B911A13BF3CC000BB3800 /* MkXTBWikiplexus.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = E89B911913BF3CC000BB3800 /* MkXTBWikiplexus.1 */; };
+		E89B912213BF447900BB3800 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E89B912113BF447900BB3800 /* libxml2.dylib */; };
+		E89B912413BF452800BB3800 /* articleReader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E89B912313BF452800BB3800 /* articleReader.cpp */; };
+		E89B912813BF545B00BB3800 /* utils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E89B912713BF545B00BB3800 /* utils.cpp */; };
+		E89B912B13BF722000BB3800 /* libmecab.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E89B912A13BF722000BB3800 /* libmecab.dylib */; };
+		E89B912D13BF722400BB3800 /* libiconv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E89B912C13BF722400BB3800 /* libiconv.dylib */; };
+		E89B912F13BF769700BB3800 /* XTBDicDB.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E89B912E13BF769600BB3800 /* XTBDicDB.cpp */; };
+		E89B913613C030ED00BB3800 /* articleProcessor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E89B913513C030EC00BB3800 /* articleProcessor.cpp */; };
+		E8B001F113E16B2E00E8BEBA /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E8B001F013E16B2E00E8BEBA /* libxml2.dylib */; };
+		E8B001F413E16B3500E8BEBA /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E8B001F313E16B3500E8BEBA /* libxml2.dylib */; };
+		E8E3641F1426E41E00DB5D74 /* removeAccent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E8E3641E1426E41D00DB5D74 /* removeAccent.cpp */; };
+		E8ED9C4213C08CA3005D8D18 /* siteInfo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E8ED9C4113C08CA3005D8D18 /* siteInfo.cpp */; };
+		E8ED9C4913C08E03005D8D18 /* tinyxml.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E8ED9C4513C08E03005D8D18 /* tinyxml.cpp */; };
+		E8ED9C4A13C08E03005D8D18 /* tinyxmlerror.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E8ED9C4713C08E03005D8D18 /* tinyxmlerror.cpp */; };
+		E8ED9C4B13C08E03005D8D18 /* tinyxmlparser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E8ED9C4813C08E03005D8D18 /* tinyxmlparser.cpp */; };
+		E8ED9C5D13C08E1C005D8D18 /* TPLArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E8ED9C4D13C08E1C005D8D18 /* TPLArray.cpp */; };
+		E8ED9C5E13C08E1C005D8D18 /* TPLDictionary.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E8ED9C5013C08E1C005D8D18 /* TPLDictionary.cpp */; };
+		E8ED9C5F13C08E1C005D8D18 /* TPLException.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E8ED9C5213C08E1C005D8D18 /* TPLException.cpp */; };
+		E8ED9C6013C08E1C005D8D18 /* TPLNumber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E8ED9C5413C08E1C005D8D18 /* TPLNumber.cpp */; };
+		E8ED9C6113C08E1C005D8D18 /* TPLObject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E8ED9C5613C08E1C005D8D18 /* TPLObject.cpp */; };
+		E8ED9C6213C08E1C005D8D18 /* TPLPropertyListSerialization.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E8ED9C5813C08E1C005D8D18 /* TPLPropertyListSerialization.cpp */; };
+		E8ED9C6313C08E1C005D8D18 /* TPLString.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E8ED9C5A13C08E1C005D8D18 /* TPLString.cpp */; };
+		E8ED9C6513C0B2EB005D8D18 /* XTBRawArticle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E8ED9C6413C0B2EB005D8D18 /* XTBRawArticle.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E81D837113E05F4300ECD822 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				E81D837913E05F4300ECD822 /* YomiGenesis.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		E81D839613E0D27900ECD822 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				E81D839E13E0D27A00ECD822 /* MkXTBIndexDB.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		E874D36513E800E300FB5CB2 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				E874D36D13E800E300FB5CB2 /* MkImageComplex.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		E89B911113BF3CC000BB3800 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				E89B911A13BF3CC000BB3800 /* MkXTBWikiplexus.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		E81D837313E05F4300ECD822 /* YomiGenesis */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = YomiGenesis; sourceTree = BUILT_PRODUCTS_DIR; };
+		E81D837613E05F4300ECD822 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		E81D837813E05F4300ECD822 /* YomiGenesis.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = YomiGenesis.1; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.man; };
+		E81D837E13E05F9200ECD822 /* stdafx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stdafx.h; sourceTree = "<group>"; };
+		E81D837F13E05FEA00ECD822 /* libmecab.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libmecab.dylib; path = usr/local/lib/libmecab.dylib; sourceTree = SDKROOT; };
+		E81D838213E0609800ECD822 /* CSVIO.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CSVIO.cpp; path = CSVIO/CSVIO.cpp; sourceTree = "<group>"; };
+		E81D838513E060A300ECD822 /* CSVIO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CSVIO.h; path = CSVIO/CSVIO.h; sourceTree = "<group>"; };
+		E81D838613E06C8D00ECD822 /* libiconv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libiconv.dylib; path = usr/lib/libiconv.dylib; sourceTree = SDKROOT; };
+		E81D839013E07A9D00ECD822 /* libkakasi.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libkakasi.a; path = ../../../../usr/local/lib/libkakasi.a; sourceTree = "<group>"; };
+		E81D839213E07B5A00ECD822 /* toHiragana.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = toHiragana.cpp; sourceTree = "<group>"; };
+		E81D839813E0D27900ECD822 /* MkXTBIndexDB */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MkXTBIndexDB; sourceTree = BUILT_PRODUCTS_DIR; };
+		E81D839B13E0D27900ECD822 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		E81D839D13E0D27A00ECD822 /* MkXTBIndexDB.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = MkXTBIndexDB.1; sourceTree = "<group>"; };
+		E81D83A213E0D2B500ECD822 /* stdafx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stdafx.h; sourceTree = "<group>"; };
+		E81D83A513E0D3E600ECD822 /* XTBIndexDB.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = XTBIndexDB.cpp; sourceTree = "<group>"; };
+		E81D83A713E0D3F200ECD822 /* XTBIndexDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XTBIndexDB.h; sourceTree = "<group>"; };
+		E867C4B913C3D3C900AE0C6F /* XTBArticleGenerator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = XTBArticleGenerator.cpp; sourceTree = "<group>"; };
+		E867C4BC13C3D3D500AE0C6F /* XTBArticleGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XTBArticleGenerator.h; sourceTree = "<group>"; };
+		E874D36713E800E300FB5CB2 /* MkImageComplex */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MkImageComplex; sourceTree = BUILT_PRODUCTS_DIR; };
+		E874D36A13E800E300FB5CB2 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		E874D36C13E800E300FB5CB2 /* MkImageComplex.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = MkImageComplex.1; sourceTree = "<group>"; };
+		E874D37213E8011600FB5CB2 /* stdafx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stdafx.h; sourceTree = "<group>"; };
+		E874D37413E8054A00FB5CB2 /* H2v2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = H2v2.cpp; sourceTree = "<group>"; };
+		E874D37513E8054A00FB5CB2 /* idct.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = idct.cpp; sourceTree = "<group>"; };
+		E874D37613E8054A00FB5CB2 /* jpegdecoder.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = jpegdecoder.cpp; sourceTree = "<group>"; };
+		E874D37713E8054A00FB5CB2 /* jpegdecoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = jpegdecoder.h; sourceTree = "<group>"; };
+		E874D37813E8054A00FB5CB2 /* jpegdecoder.inl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = jpegdecoder.inl; sourceTree = "<group>"; };
+		E874D37913E8054A00FB5CB2 /* license.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = license.txt; sourceTree = "<group>"; };
+		E874D37A13E8054A00FB5CB2 /* readme.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = readme.txt; sourceTree = "<group>"; };
+		E874D38013E80B0C00FB5CB2 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		E89B911313BF3CC000BB3800 /* MkXTBWikiplexus */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MkXTBWikiplexus; sourceTree = BUILT_PRODUCTS_DIR; };
+		E89B911713BF3CC000BB3800 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		E89B911913BF3CC000BB3800 /* MkXTBWikiplexus.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = MkXTBWikiplexus.1; sourceTree = "<group>"; };
+		E89B912113BF447900BB3800 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		E89B912313BF452800BB3800 /* articleReader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = articleReader.cpp; sourceTree = "<group>"; };
+		E89B912513BF453200BB3800 /* articleReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = articleReader.h; sourceTree = "<group>"; };
+		E89B912613BF455100BB3800 /* stdafx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stdafx.h; sourceTree = "<group>"; };
+		E89B912713BF545B00BB3800 /* utils.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = utils.cpp; sourceTree = "<group>"; };
+		E89B912913BF546200BB3800 /* utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = utils.h; sourceTree = "<group>"; };
+		E89B912A13BF722000BB3800 /* libmecab.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libmecab.dylib; path = usr/local/lib/libmecab.dylib; sourceTree = SDKROOT; };
+		E89B912C13BF722400BB3800 /* libiconv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libiconv.dylib; path = usr/lib/libiconv.dylib; sourceTree = SDKROOT; };
+		E89B912E13BF769600BB3800 /* XTBDicDB.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = XTBDicDB.cpp; sourceTree = "<group>"; };
+		E89B913013BF76A100BB3800 /* XTBDicDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XTBDicDB.h; sourceTree = "<group>"; };
+		E89B913513C030EC00BB3800 /* articleProcessor.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = articleProcessor.cpp; sourceTree = "<group>"; };
+		E89B913713C032D200BB3800 /* articleProcessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = articleProcessor.h; sourceTree = "<group>"; };
+		E89B913813C04D3E00BB3800 /* endian.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = endian.h; sourceTree = "<group>"; };
+		E8B001F013E16B2E00E8BEBA /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		E8B001F313E16B3500E8BEBA /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		E8E3641E1426E41D00DB5D74 /* removeAccent.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = removeAccent.cpp; sourceTree = "<group>"; };
+		E8ED9C3813C06802005D8D18 /* main.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = main.h; sourceTree = "<group>"; };
+		E8ED9C4113C08CA3005D8D18 /* siteInfo.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = siteInfo.cpp; sourceTree = "<group>"; };
+		E8ED9C4313C08CAA005D8D18 /* siteInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = siteInfo.h; sourceTree = "<group>"; };
+		E8ED9C4513C08E03005D8D18 /* tinyxml.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = tinyxml.cpp; path = TinyXML/tinyxml.cpp; sourceTree = "<group>"; };
+		E8ED9C4613C08E03005D8D18 /* tinyxml.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = tinyxml.h; path = TinyXML/tinyxml.h; sourceTree = "<group>"; };
+		E8ED9C4713C08E03005D8D18 /* tinyxmlerror.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = tinyxmlerror.cpp; path = TinyXML/tinyxmlerror.cpp; sourceTree = "<group>"; };
+		E8ED9C4813C08E03005D8D18 /* tinyxmlparser.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = tinyxmlparser.cpp; path = TinyXML/tinyxmlparser.cpp; sourceTree = "<group>"; };
+		E8ED9C4D13C08E1C005D8D18 /* TPLArray.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = TPLArray.cpp; path = TPList/TPLArray.cpp; sourceTree = "<group>"; };
+		E8ED9C4E13C08E1C005D8D18 /* TPLArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TPLArray.h; path = TPList/TPLArray.h; sourceTree = "<group>"; };
+		E8ED9C4F13C08E1C005D8D18 /* TPLAutoReleasePtr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TPLAutoReleasePtr.h; path = TPList/TPLAutoReleasePtr.h; sourceTree = "<group>"; };
+		E8ED9C5013C08E1C005D8D18 /* TPLDictionary.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = TPLDictionary.cpp; path = TPList/TPLDictionary.cpp; sourceTree = "<group>"; };
+		E8ED9C5113C08E1C005D8D18 /* TPLDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TPLDictionary.h; path = TPList/TPLDictionary.h; sourceTree = "<group>"; };
+		E8ED9C5213C08E1C005D8D18 /* TPLException.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = TPLException.cpp; path = TPList/TPLException.cpp; sourceTree = "<group>"; };
+		E8ED9C5313C08E1C005D8D18 /* TPLException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TPLException.h; path = TPList/TPLException.h; sourceTree = "<group>"; };
+		E8ED9C5413C08E1C005D8D18 /* TPLNumber.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = TPLNumber.cpp; path = TPList/TPLNumber.cpp; sourceTree = "<group>"; };
+		E8ED9C5513C08E1C005D8D18 /* TPLNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TPLNumber.h; path = TPList/TPLNumber.h; sourceTree = "<group>"; };
+		E8ED9C5613C08E1C005D8D18 /* TPLObject.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = TPLObject.cpp; path = TPList/TPLObject.cpp; sourceTree = "<group>"; };
+		E8ED9C5713C08E1C005D8D18 /* TPLObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TPLObject.h; path = TPList/TPLObject.h; sourceTree = "<group>"; };
+		E8ED9C5813C08E1C005D8D18 /* TPLPropertyListSerialization.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = TPLPropertyListSerialization.cpp; path = TPList/TPLPropertyListSerialization.cpp; sourceTree = "<group>"; };
+		E8ED9C5913C08E1C005D8D18 /* TPLPropertyListSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TPLPropertyListSerialization.h; path = TPList/TPLPropertyListSerialization.h; sourceTree = "<group>"; };
+		E8ED9C5A13C08E1C005D8D18 /* TPLString.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = TPLString.cpp; path = TPList/TPLString.cpp; sourceTree = "<group>"; };
+		E8ED9C5B13C08E1C005D8D18 /* TPLString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TPLString.h; path = TPList/TPLString.h; sourceTree = "<group>"; };
+		E8ED9C5C13C08E1C005D8D18 /* TPLTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TPLTypes.h; path = TPList/TPLTypes.h; sourceTree = "<group>"; };
+		E8ED9C6413C0B2EB005D8D18 /* XTBRawArticle.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = XTBRawArticle.cpp; sourceTree = "<group>"; };
+		E8ED9C6613C0B2F5005D8D18 /* XTBRawArticle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XTBRawArticle.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E81D837013E05F4300ECD822 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8B001F113E16B2E00E8BEBA /* libxml2.dylib in Frameworks */,
+				E81D838713E06C8E00ECD822 /* libiconv.dylib in Frameworks */,
+				E81D838013E05FEB00ECD822 /* libmecab.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E81D839513E0D27900ECD822 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8B001F413E16B3500E8BEBA /* libxml2.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E874D36413E800E300FB5CB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E874D38113E80B0C00FB5CB2 /* libxml2.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E89B911013BF3CC000BB3800 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E89B912D13BF722400BB3800 /* libiconv.dylib in Frameworks */,
+				E89B912B13BF722000BB3800 /* libmecab.dylib in Frameworks */,
+				E89B912213BF447900BB3800 /* libxml2.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E81D837513E05F4300ECD822 /* YomiGenesis */ = {
+			isa = PBXGroup;
+			children = (
+				E81D837613E05F4300ECD822 /* main.cpp */,
+				E81D837813E05F4300ECD822 /* YomiGenesis.1 */,
+				E81D837E13E05F9200ECD822 /* stdafx.h */,
+				E81D839213E07B5A00ECD822 /* toHiragana.cpp */,
+				E8E3641E1426E41D00DB5D74 /* removeAccent.cpp */,
+			);
+			path = YomiGenesis;
+			sourceTree = "<group>";
+		};
+		E81D838113E0608300ECD822 /* CSVIO */ = {
+			isa = PBXGroup;
+			children = (
+				E81D838213E0609800ECD822 /* CSVIO.cpp */,
+				E81D838513E060A300ECD822 /* CSVIO.h */,
+			);
+			name = CSVIO;
+			sourceTree = "<group>";
+		};
+		E81D839A13E0D27900ECD822 /* MkXTBIndexDB */ = {
+			isa = PBXGroup;
+			children = (
+				E81D839B13E0D27900ECD822 /* main.cpp */,
+				E81D839D13E0D27A00ECD822 /* MkXTBIndexDB.1 */,
+				E81D83A213E0D2B500ECD822 /* stdafx.h */,
+				E81D83A513E0D3E600ECD822 /* XTBIndexDB.cpp */,
+				E81D83A713E0D3F200ECD822 /* XTBIndexDB.h */,
+			);
+			path = MkXTBIndexDB;
+			sourceTree = "<group>";
+		};
+		E874D36913E800E300FB5CB2 /* MkImageComplex */ = {
+			isa = PBXGroup;
+			children = (
+				E874D36A13E800E300FB5CB2 /* main.cpp */,
+				E874D36C13E800E300FB5CB2 /* MkImageComplex.1 */,
+				E874D37213E8011600FB5CB2 /* stdafx.h */,
+			);
+			path = MkImageComplex;
+			sourceTree = "<group>";
+		};
+		E874D37313E8054A00FB5CB2 /* RichgelJpeg */ = {
+			isa = PBXGroup;
+			children = (
+				E874D37413E8054A00FB5CB2 /* H2v2.cpp */,
+				E874D37513E8054A00FB5CB2 /* idct.cpp */,
+				E874D37613E8054A00FB5CB2 /* jpegdecoder.cpp */,
+				E874D37713E8054A00FB5CB2 /* jpegdecoder.h */,
+				E874D37813E8054A00FB5CB2 /* jpegdecoder.inl */,
+				E874D37913E8054A00FB5CB2 /* license.txt */,
+				E874D37A13E8054A00FB5CB2 /* readme.txt */,
+			);
+			path = RichgelJpeg;
+			sourceTree = "<group>";
+		};
+		E89B910813BF3CBF00BB3800 = {
+			isa = PBXGroup;
+			children = (
+				E874D38013E80B0C00FB5CB2 /* libxml2.dylib */,
+				E874D37313E8054A00FB5CB2 /* RichgelJpeg */,
+				E8B001F313E16B3500E8BEBA /* libxml2.dylib */,
+				E8B001F013E16B2E00E8BEBA /* libxml2.dylib */,
+				E81D839013E07A9D00ECD822 /* libkakasi.a */,
+				E81D838613E06C8D00ECD822 /* libiconv.dylib */,
+				E81D838113E0608300ECD822 /* CSVIO */,
+				E81D837F13E05FEA00ECD822 /* libmecab.dylib */,
+				E8ED9C4C13C08E06005D8D18 /* TPList */,
+				E8ED9C4413C08DEB005D8D18 /* TinyXML */,
+				E89B912C13BF722400BB3800 /* libiconv.dylib */,
+				E89B912A13BF722000BB3800 /* libmecab.dylib */,
+				E89B912113BF447900BB3800 /* libxml2.dylib */,
+				E89B911613BF3CC000BB3800 /* MkXTBWikiplexus */,
+				E81D837513E05F4300ECD822 /* YomiGenesis */,
+				E81D839A13E0D27900ECD822 /* MkXTBIndexDB */,
+				E874D36913E800E300FB5CB2 /* MkImageComplex */,
+				E89B911413BF3CC000BB3800 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E89B911413BF3CC000BB3800 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E89B911313BF3CC000BB3800 /* MkXTBWikiplexus */,
+				E81D837313E05F4300ECD822 /* YomiGenesis */,
+				E81D839813E0D27900ECD822 /* MkXTBIndexDB */,
+				E874D36713E800E300FB5CB2 /* MkImageComplex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E89B911613BF3CC000BB3800 /* MkXTBWikiplexus */ = {
+			isa = PBXGroup;
+			children = (
+				E89B912613BF455100BB3800 /* stdafx.h */,
+				E89B913813C04D3E00BB3800 /* endian.h */,
+				E89B911713BF3CC000BB3800 /* main.cpp */,
+				E8ED9C3813C06802005D8D18 /* main.h */,
+				E89B911913BF3CC000BB3800 /* MkXTBWikiplexus.1 */,
+				E89B912313BF452800BB3800 /* articleReader.cpp */,
+				E89B912513BF453200BB3800 /* articleReader.h */,
+				E89B912713BF545B00BB3800 /* utils.cpp */,
+				E89B912913BF546200BB3800 /* utils.h */,
+				E89B912E13BF769600BB3800 /* XTBDicDB.cpp */,
+				E89B913013BF76A100BB3800 /* XTBDicDB.h */,
+				E89B913513C030EC00BB3800 /* articleProcessor.cpp */,
+				E89B913713C032D200BB3800 /* articleProcessor.h */,
+				E8ED9C4113C08CA3005D8D18 /* siteInfo.cpp */,
+				E8ED9C4313C08CAA005D8D18 /* siteInfo.h */,
+				E8ED9C6413C0B2EB005D8D18 /* XTBRawArticle.cpp */,
+				E8ED9C6613C0B2F5005D8D18 /* XTBRawArticle.h */,
+				E867C4B913C3D3C900AE0C6F /* XTBArticleGenerator.cpp */,
+				E867C4BC13C3D3D500AE0C6F /* XTBArticleGenerator.h */,
+			);
+			path = MkXTBWikiplexus;
+			sourceTree = "<group>";
+		};
+		E8ED9C4413C08DEB005D8D18 /* TinyXML */ = {
+			isa = PBXGroup;
+			children = (
+				E8ED9C4513C08E03005D8D18 /* tinyxml.cpp */,
+				E8ED9C4613C08E03005D8D18 /* tinyxml.h */,
+				E8ED9C4713C08E03005D8D18 /* tinyxmlerror.cpp */,
+				E8ED9C4813C08E03005D8D18 /* tinyxmlparser.cpp */,
+			);
+			name = TinyXML;
+			sourceTree = "<group>";
+		};
+		E8ED9C4C13C08E06005D8D18 /* TPList */ = {
+			isa = PBXGroup;
+			children = (
+				E8ED9C4D13C08E1C005D8D18 /* TPLArray.cpp */,
+				E8ED9C4E13C08E1C005D8D18 /* TPLArray.h */,
+				E8ED9C4F13C08E1C005D8D18 /* TPLAutoReleasePtr.h */,
+				E8ED9C5013C08E1C005D8D18 /* TPLDictionary.cpp */,
+				E8ED9C5113C08E1C005D8D18 /* TPLDictionary.h */,
+				E8ED9C5213C08E1C005D8D18 /* TPLException.cpp */,
+				E8ED9C5313C08E1C005D8D18 /* TPLException.h */,
+				E8ED9C5413C08E1C005D8D18 /* TPLNumber.cpp */,
+				E8ED9C5513C08E1C005D8D18 /* TPLNumber.h */,
+				E8ED9C5613C08E1C005D8D18 /* TPLObject.cpp */,
+				E8ED9C5713C08E1C005D8D18 /* TPLObject.h */,
+				E8ED9C5813C08E1C005D8D18 /* TPLPropertyListSerialization.cpp */,
+				E8ED9C5913C08E1C005D8D18 /* TPLPropertyListSerialization.h */,
+				E8ED9C5A13C08E1C005D8D18 /* TPLString.cpp */,
+				E8ED9C5B13C08E1C005D8D18 /* TPLString.h */,
+				E8ED9C5C13C08E1C005D8D18 /* TPLTypes.h */,
+			);
+			name = TPList;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E81D837213E05F4300ECD822 /* YomiGenesis */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E81D837C13E05F4300ECD822 /* Build configuration list for PBXNativeTarget "YomiGenesis" */;
+			buildPhases = (
+				E81D836F13E05F4300ECD822 /* Sources */,
+				E81D837013E05F4300ECD822 /* Frameworks */,
+				E81D837113E05F4300ECD822 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YomiGenesis;
+			productName = YomiGenesis;
+			productReference = E81D837313E05F4300ECD822 /* YomiGenesis */;
+			productType = "com.apple.product-type.tool";
+		};
+		E81D839713E0D27900ECD822 /* MkXTBIndexDB */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E81D839F13E0D27A00ECD822 /* Build configuration list for PBXNativeTarget "MkXTBIndexDB" */;
+			buildPhases = (
+				E81D839413E0D27900ECD822 /* Sources */,
+				E81D839513E0D27900ECD822 /* Frameworks */,
+				E81D839613E0D27900ECD822 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MkXTBIndexDB;
+			productName = MkXTBIndexDB;
+			productReference = E81D839813E0D27900ECD822 /* MkXTBIndexDB */;
+			productType = "com.apple.product-type.tool";
+		};
+		E874D36613E800E300FB5CB2 /* MkImageComplex */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E874D37013E800E300FB5CB2 /* Build configuration list for PBXNativeTarget "MkImageComplex" */;
+			buildPhases = (
+				E874D36313E800E300FB5CB2 /* Sources */,
+				E874D36413E800E300FB5CB2 /* Frameworks */,
+				E874D36513E800E300FB5CB2 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MkImageComplex;
+			productName = MkImageComplex;
+			productReference = E874D36713E800E300FB5CB2 /* MkImageComplex */;
+			productType = "com.apple.product-type.tool";
+		};
+		E89B911213BF3CC000BB3800 /* MkXTBWikiplexus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E89B911D13BF3CC000BB3800 /* Build configuration list for PBXNativeTarget "MkXTBWikiplexus" */;
+			buildPhases = (
+				E89B910F13BF3CC000BB3800 /* Sources */,
+				E89B911013BF3CC000BB3800 /* Frameworks */,
+				E89B911113BF3CC000BB3800 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MkXTBWikiplexus;
+			productName = MkXTBWikiplexus;
+			productReference = E89B911313BF3CC000BB3800 /* MkXTBWikiplexus */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E89B910A13BF3CBF00BB3800 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = Nexhawks;
+			};
+			buildConfigurationList = E89B910D13BF3CBF00BB3800 /* Build configuration list for PBXProject "MkXTBWikiplexus" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E89B910813BF3CBF00BB3800;
+			productRefGroup = E89B911413BF3CC000BB3800 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E89B911213BF3CC000BB3800 /* MkXTBWikiplexus */,
+				E81D837213E05F4300ECD822 /* YomiGenesis */,
+				E81D839713E0D27900ECD822 /* MkXTBIndexDB */,
+				E874D36613E800E300FB5CB2 /* MkImageComplex */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E81D836F13E05F4300ECD822 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E81D837713E05F4300ECD822 /* main.cpp in Sources */,
+				E81D838413E0609800ECD822 /* CSVIO.cpp in Sources */,
+				E81D839313E07B5A00ECD822 /* toHiragana.cpp in Sources */,
+				E8E3641F1426E41E00DB5D74 /* removeAccent.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E81D839413E0D27900ECD822 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E81D839C13E0D27900ECD822 /* main.cpp in Sources */,
+				E81D83A313E0D2DE00ECD822 /* CSVIO.cpp in Sources */,
+				E81D83A413E0D2EC00ECD822 /* utils.cpp in Sources */,
+				E81D83A613E0D3E600ECD822 /* XTBIndexDB.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E874D36313E800E300FB5CB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E874D36B13E800E300FB5CB2 /* main.cpp in Sources */,
+				E874D37B13E8054A00FB5CB2 /* H2v2.cpp in Sources */,
+				E874D37C13E8054A00FB5CB2 /* idct.cpp in Sources */,
+				E874D37D13E8054A00FB5CB2 /* jpegdecoder.cpp in Sources */,
+				E874D37E13E80AFB00FB5CB2 /* XTBDicDB.cpp in Sources */,
+				E874D37F13E80AFE00FB5CB2 /* utils.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E89B910F13BF3CC000BB3800 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E89B911813BF3CC000BB3800 /* main.cpp in Sources */,
+				E89B912413BF452800BB3800 /* articleReader.cpp in Sources */,
+				E89B912813BF545B00BB3800 /* utils.cpp in Sources */,
+				E89B912F13BF769700BB3800 /* XTBDicDB.cpp in Sources */,
+				E89B913613C030ED00BB3800 /* articleProcessor.cpp in Sources */,
+				E8ED9C4213C08CA3005D8D18 /* siteInfo.cpp in Sources */,
+				E8ED9C4913C08E03005D8D18 /* tinyxml.cpp in Sources */,
+				E8ED9C4A13C08E03005D8D18 /* tinyxmlerror.cpp in Sources */,
+				E8ED9C4B13C08E03005D8D18 /* tinyxmlparser.cpp in Sources */,
+				E8ED9C5D13C08E1C005D8D18 /* TPLArray.cpp in Sources */,
+				E8ED9C5E13C08E1C005D8D18 /* TPLDictionary.cpp in Sources */,
+				E8ED9C5F13C08E1C005D8D18 /* TPLException.cpp in Sources */,
+				E8ED9C6013C08E1C005D8D18 /* TPLNumber.cpp in Sources */,
+				E8ED9C6113C08E1C005D8D18 /* TPLObject.cpp in Sources */,
+				E8ED9C6213C08E1C005D8D18 /* TPLPropertyListSerialization.cpp in Sources */,
+				E8ED9C6313C08E1C005D8D18 /* TPLString.cpp in Sources */,
+				E8ED9C6513C0B2EB005D8D18 /* XTBRawArticle.cpp in Sources */,
+				E867C4BA13C3D3C900AE0C6F /* XTBArticleGenerator.cpp in Sources */,
+				E81D838313E0609800ECD822 /* CSVIO.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		E81D837A13E05F4300ECD822 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				GCC_PREFIX_HEADER = YomiGenesis/stdafx.h;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				OTHER_LDFLAGS = "-lkakasi";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E81D837B13E05F4300ECD822 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				GCC_PREFIX_HEADER = YomiGenesis/stdafx.h;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				OTHER_LDFLAGS = "-lkakasi";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E81D83A013E0D27A00ECD822 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				GCC_PREFIX_HEADER = MkXTBIndexDB/stdafx.h;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E81D83A113E0D27A00ECD822 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				GCC_PREFIX_HEADER = MkXTBIndexDB/stdafx.h;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E874D36E13E800E300FB5CB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				GCC_PREFIX_HEADER = MkImageComplex/stdafx.h;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E874D36F13E800E300FB5CB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				GCC_PREFIX_HEADER = MkImageComplex/stdafx.h;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E89B911B13BF3CC000BB3800 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = MkXTBWikiplexus/stdafx.h;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include,
+					/usr/include/libxml2,
+				);
+				LIBRARY_SEARCH_PATHS = /usr/local/lib;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		E89B911C13BF3CC000BB3800 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = MkXTBWikiplexus/stdafx.h;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include,
+					/usr/include/libxml2,
+				);
+				LIBRARY_SEARCH_PATHS = /usr/local/lib;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		E89B911E13BF3CC000BB3800 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E89B911F13BF3CC000BB3800 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E81D837C13E05F4300ECD822 /* Build configuration list for PBXNativeTarget "YomiGenesis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E81D837A13E05F4300ECD822 /* Debug */,
+				E81D837B13E05F4300ECD822 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E81D839F13E0D27A00ECD822 /* Build configuration list for PBXNativeTarget "MkXTBIndexDB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E81D83A013E0D27A00ECD822 /* Debug */,
+				E81D83A113E0D27A00ECD822 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E874D37013E800E300FB5CB2 /* Build configuration list for PBXNativeTarget "MkImageComplex" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E874D36E13E800E300FB5CB2 /* Debug */,
+				E874D36F13E800E300FB5CB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E89B910D13BF3CBF00BB3800 /* Build configuration list for PBXProject "MkXTBWikiplexus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E89B911B13BF3CC000BB3800 /* Debug */,
+				E89B911C13BF3CC000BB3800 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E89B911D13BF3CC000BB3800 /* Build configuration list for PBXNativeTarget "MkXTBWikiplexus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E89B911E13BF3CC000BB3800 /* Debug */,
+				E89B911F13BF3CC000BB3800 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E89B910A13BF3CBF00BB3800 /* Project object */;
+}

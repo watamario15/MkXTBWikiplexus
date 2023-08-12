@@ -1,0 +1,584 @@
+TMkXTBWikiplexus
+v4
+r1
+cCheck dependencies
+cProcessPCH++ /Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/PrecompiledHeaders/stdafx-dszmihekmyobvhgiglwdastjzlmi/stdafx.h.pth MkXTBWikiplexus/stdafx.h normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/Objects-normal/x86_64/XTBDicDB.o /Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus/XTBDicDB.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/Objects-normal/x86_64/tinyxmlparser.o /Volumes/Data/MACCPP/MkXTBWikiplexus/TinyXML/tinyxmlparser.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/Objects-normal/x86_64/main.o /Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus/main.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/Objects-normal/x86_64/articleReader.o /Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus/articleReader.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/Objects-normal/x86_64/utils.o /Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus/utils.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/Objects-normal/x86_64/articleProcessor.o /Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus/articleProcessor.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/Objects-normal/x86_64/siteInfo.o /Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus/siteInfo.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/Objects-normal/x86_64/tinyxml.o /Volumes/Data/MACCPP/MkXTBWikiplexus/TinyXML/tinyxml.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/Objects-normal/x86_64/tinyxmlerror.o /Volumes/Data/MACCPP/MkXTBWikiplexus/TinyXML/tinyxmlerror.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/Objects-normal/x86_64/TPLArray.o /Volumes/Data/MACCPP/MkXTBWikiplexus/TPList/TPLArray.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/Objects-normal/x86_64/TPLDictionary.o /Volumes/Data/MACCPP/MkXTBWikiplexus/TPList/TPLDictionary.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/Objects-normal/x86_64/TPLException.o /Volumes/Data/MACCPP/MkXTBWikiplexus/TPList/TPLException.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/Objects-normal/x86_64/TPLNumber.o /Volumes/Data/MACCPP/MkXTBWikiplexus/TPList/TPLNumber.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/Objects-normal/x86_64/TPLObject.o /Volumes/Data/MACCPP/MkXTBWikiplexus/TPList/TPLObject.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/Objects-normal/x86_64/TPLPropertyListSerialization.o /Volumes/Data/MACCPP/MkXTBWikiplexus/TPList/TPLPropertyListSerialization.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/Objects-normal/x86_64/TPLString.o /Volumes/Data/MACCPP/MkXTBWikiplexus/TPList/TPLString.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/Objects-normal/x86_64/XTBRawArticle.o /Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus/XTBRawArticle.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/Objects-normal/x86_64/XTBArticleGenerator.o /Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus/XTBArticleGenerator.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/Objects-normal/x86_64/CSVIO.o /Volumes/Data/MACCPP/MkXTBWikiplexus/CSVIO/CSVIO.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Products/Debug/MkXTBWikiplexus normal x86_64
+
+N/Developer/SDKs/MacOSX10.7.sdk
+c000000004E1106D400000000000000EE
+t1309738708
+s238
+
+N/Developer/SDKs/MacOSX10.7.sdk/usr/lib/libiconv.dylib
+c000000004E1106D3000000000000426C
+t1309738707
+s17004
+
+N/Developer/SDKs/MacOSX10.7.sdk/usr/lib/libxml2.dylib
+c000000004E1106D400000000000389F4
+t1309738708
+s231924
+
+N/Developer/SDKs/MacOSX10.7.sdk/usr/local/lib/libmecab.dylib
+c000000004D55281600000000001615D8
+t1297426454
+s1447384
+
+N/Volumes/Data/MACCPP/MkXTBWikiplexus/CSVIO/CSVIO.cpp
+c000000004E30367800000000000008EA
+t1311782520
+s2282
+
+N/Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/Objects-normal/x86_64/CSVIO.o
+t2
+s0
+
+N/Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/Objects-normal/x86_64/MkXTBWikiplexus.LinkFileList
+c000000004E3A99420000000000000E09
+t1312463170
+s3593
+
+N/Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/Objects-normal/x86_64/TPLArray.o
+t2
+s0
+
+N/Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/Objects-normal/x86_64/TPLDictionary.o
+t2
+s0
+
+N/Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/Objects-normal/x86_64/TPLException.o
+t2
+s0
+
+N/Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/Objects-normal/x86_64/TPLNumber.o
+t2
+s0
+
+N/Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/Objects-normal/x86_64/TPLObject.o
+t2
+s0
+
+N/Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/Objects-normal/x86_64/TPLPropertyListSerialization.o
+t2
+s0
+
+N/Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/Objects-normal/x86_64/TPLString.o
+t2
+s0
+
+N/Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/Objects-normal/x86_64/XTBArticleGenerator.o
+t2
+s0
+
+N/Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/Objects-normal/x86_64/XTBDicDB.o
+t2
+s0
+
+N/Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/Objects-normal/x86_64/XTBRawArticle.o
+t2
+s0
+
+N/Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/Objects-normal/x86_64/articleProcessor.o
+t2
+s0
+
+N/Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/Objects-normal/x86_64/articleReader.o
+t2
+s0
+
+N/Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/Objects-normal/x86_64/main.o
+t2
+s0
+
+N/Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/Objects-normal/x86_64/siteInfo.o
+t2
+s0
+
+N/Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/Objects-normal/x86_64/tinyxml.o
+t2
+s0
+
+N/Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/Objects-normal/x86_64/tinyxmlerror.o
+t2
+s0
+
+N/Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/Objects-normal/x86_64/tinyxmlparser.o
+t2
+s0
+
+N/Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/Objects-normal/x86_64/utils.o
+t2
+s0
+
+N/Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/PrecompiledHeaders/stdafx-dszmihekmyobvhgiglwdastjzlmi/stdafx.h.pth
+t2
+s0
+
+N/Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Products/Debug/MkXTBWikiplexus
+t2
+s0
+
+N/Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus/XTBArticleGenerator.cpp
+c000000004E146DA50000000000000AAB
+t1309961637
+s2731
+
+N/Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus/XTBDicDB.cpp
+c000000004E3844C6000000000000162E
+t1312310470
+s5678
+
+N/Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus/XTBRawArticle.cpp
+c000000004E39F1F400000000000020EC
+t1312420340
+s8428
+
+N/Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus/articleProcessor.cpp
+c000000004E3A496F00000000000032A3
+t1312442735
+s12963
+
+N/Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus/articleReader.cpp
+c000000004E0F26440000000000000697
+t1309615684
+s1687
+
+N/Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus/main.cpp
+c000000004E3A99410000000000001CA3
+t1312463169
+s7331
+
+N/Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus/siteInfo.cpp
+c000000004E3845D10000000000000F0E
+t1312310737
+s3854
+
+N/Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus/stdafx.h
+c000000004E30281E00000000000001CB
+t1311778846
+s459
+
+N/Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus/utils.cpp
+c000000004E3847D70000000000001B4D
+t1312311255
+s6989
+
+N/Volumes/Data/MACCPP/MkXTBWikiplexus/TPList/TPLArray.cpp
+c000000004DE1DBC70000000000000D1F
+t1306647495
+s3359
+
+N/Volumes/Data/MACCPP/MkXTBWikiplexus/TPList/TPLDictionary.cpp
+c000000004DE1DBDA0000000000000DF1
+t1306647514
+s3569
+
+N/Volumes/Data/MACCPP/MkXTBWikiplexus/TPList/TPLException.cpp
+c000000004DE1DBFF00000000000003B1
+t1306647551
+s945
+
+N/Volumes/Data/MACCPP/MkXTBWikiplexus/TPList/TPLNumber.cpp
+c000000004DE1DBEB0000000000000A73
+t1306647531
+s2675
+
+N/Volumes/Data/MACCPP/MkXTBWikiplexus/TPList/TPLObject.cpp
+c000000004DE1DBC0000000000000049E
+t1306647488
+s1182
+
+N/Volumes/Data/MACCPP/MkXTBWikiplexus/TPList/TPLPropertyListSerialization.cpp
+c000000004DE1DBF700000000000016D6
+t1306647543
+s5846
+
+N/Volumes/Data/MACCPP/MkXTBWikiplexus/TPList/TPLString.cpp
+c000000004DE1DBE2000000000000057C
+t1306647522
+s1404
+
+N/Volumes/Data/MACCPP/MkXTBWikiplexus/TinyXML/tinyxml.cpp
+c000000004DCE587A00000000000092D7
+t1305368698
+s37591
+
+N/Volumes/Data/MACCPP/MkXTBWikiplexus/TinyXML/tinyxmlerror.cpp
+c000000004DCE587A00000000000006FF
+t1305368698
+s1791
+
+N/Volumes/Data/MACCPP/MkXTBWikiplexus/TinyXML/tinyxmlparser.cpp
+c000000004DCE587A000000000000917A
+t1305368698
+s37242
+
+CBuild AST from /Volumes/Data/MACCPP/MkXTBWikiplexus/CSVIO/CSVIO.cpp
+r0
+
+CBuild AST from /Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus/XTBArticleGenerator.cpp
+r0
+
+CBuild AST from /Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus/XTBDicDB.cpp
+r0
+
+CBuild AST from /Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus/XTBRawArticle.cpp
+r0
+
+CBuild AST from /Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus/articleProcessor.cpp
+r0
+
+CBuild AST from /Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus/articleReader.cpp
+r0
+
+CBuild AST from /Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus/main.cpp
+r0
+
+CBuild AST from /Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus/siteInfo.cpp
+r0
+
+CBuild AST from /Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus/utils.cpp
+r0
+
+CBuild AST from /Volumes/Data/MACCPP/MkXTBWikiplexus/TPList/TPLArray.cpp
+r0
+
+CBuild AST from /Volumes/Data/MACCPP/MkXTBWikiplexus/TPList/TPLDictionary.cpp
+r0
+
+CBuild AST from /Volumes/Data/MACCPP/MkXTBWikiplexus/TPList/TPLException.cpp
+r0
+
+CBuild AST from /Volumes/Data/MACCPP/MkXTBWikiplexus/TPList/TPLNumber.cpp
+r0
+
+CBuild AST from /Volumes/Data/MACCPP/MkXTBWikiplexus/TPList/TPLObject.cpp
+r0
+
+CBuild AST from /Volumes/Data/MACCPP/MkXTBWikiplexus/TPList/TPLPropertyListSerialization.cpp
+r0
+
+CBuild AST from /Volumes/Data/MACCPP/MkXTBWikiplexus/TPList/TPLString.cpp
+r0
+
+CBuild AST from /Volumes/Data/MACCPP/MkXTBWikiplexus/TinyXML/tinyxml.cpp
+r0
+
+CBuild AST from /Volumes/Data/MACCPP/MkXTBWikiplexus/TinyXML/tinyxmlerror.cpp
+r0
+
+CBuild AST from /Volumes/Data/MACCPP/MkXTBWikiplexus/TinyXML/tinyxmlparser.cpp
+r0
+
+CCheck dependencies
+r0
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies73471bc2d0eab341^c3b639c2d0eab341^---0#1#0#--18"Check dependencies36"85F6B9A4-92E3-4C05-8722-8A754F14EDC4-
+
+CCompileC MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/Objects-normal/x86_64/CSVIO.o /Volumes/Data/MACCPP/MkXTBWikiplexus/CSVIO/CSVIO.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s334155974.952146
+e334155975.159963
+r1
+xCompileC
+xMkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/Objects-normal/x86_64/CSVIO.o
+x/Volumes/Data/MACCPP/MkXTBWikiplexus/CSVIO/CSVIO.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection60"Compile /Volumes/Data/MACCPP/MkXTBWikiplexus/CSVIO/CSVIO.cpp50fdf3c6d0eab341^c3f528c7d0eab341^---0#0#0#-19%DVTDocumentLocation2@68"file://localhost/Volumes/Data/MACCPP/MkXTBWikiplexus/CSVIO/CSVIO.cpp0000000000000000^2831"CompileC MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/Objects-normal/x86_64/CSVIO.o CSVIO/CSVIO.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Volumes/Data/MACCPP/MkXTBWikiplexus    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshorten-64-to-32 -Wc++0x-extensions -DDEBUG=1 -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/MkXTBWikiplexus-generated-files.hmap -I/Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/MkXTBWikiplexus-own-target-headers.hmap -I/Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/MkXTBWikiplexus-all-target-headers.hmap -iquote /Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/MkXTBWikiplexus-project-headers.hmap -I/Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Products/Debug/include -I/usr/local/include -I/Developer/SDKs/MacOSX10.7.sdk/usr/include/libxml2 -I/Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/DerivedSources/x86_64 -I/Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/DerivedSources -F/Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Products/Debug -include /Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/PrecompiledHeaders/stdafx-dszmihekmyobvhgiglwdastjzlmi/stdafx.h -MMD -MT dependencies -MF /Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/Objects-normal/x86_64/CSVIO.d -c /Volumes/Data/MACCPP/MkXTBWikiplexus/CSVIO/CSVIO.cpp -o /Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/Objects-normal/x86_64/CSVIO.o36"00D52D1F-32F3-45EA-BA87-EF22E8EFD834-
+
+CCompileC MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/Objects-normal/x86_64/TPLArray.o /Volumes/Data/MACCPP/MkXTBWikiplexus/TPList/TPLArray.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s334155972.918663
+e334155973.477852
+r1
+xCompileC
+xMkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/Objects-normal/x86_64/TPLArray.o
+x/Volumes/Data/MACCPP/MkXTBWikiplexus/TPList/TPLArray.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Volumes/Data/MACCPP/MkXTBWikiplexus/TPList/TPLArray.cpp:146:9:{146:9-146:29}{146:2-146:8}: warning: implicit conversion loses integer precision: 'typename __normal_iterator<TPLObject *const *, vector<TPLObject *, allocator<TPLObject *> > >::difference_type' (aka 'long') to 'TPLUInteger' (aka 'unsigned int') [-Wshorten-64-to-32,3]
+o         return it-m_objects.begin();
+o         ~~~~~~ ^~~~~~~~~~~~~~~~~~~~
+o/Volumes/Data/MACCPP/MkXTBWikiplexus/TPList/TPLArray.cpp:150:9:{150:9-150:25}{150:2-150:8}: warning: implicit conversion loses integer precision: 'size_type' (aka 'unsigned long') to 'TPLUInteger' (aka 'unsigned int') [-Wshorten-64-to-32,3]
+o         return m_objects.size();
+o         ~~~~~~ ^~~~~~~~~~~~~~~~
+o2 warnings generated.
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection64"Compile /Volumes/Data/MACCPP/MkXTBWikiplexus/TPList/TPLArray.cppe65bebc4d0eab341^30da7fc5d0eab341^-738"/Volumes/Data/MACCPP/MkXTBWikiplexus/TPList/TPLArray.cpp:146:9:{146:9-146:29}{146:2-146:8}: warning: implicit conversion loses integer precision: 'typename __normal_iterator<TPLObject *const *, vector<TPLObject *, allocator<TPLObject *> > >::difference_type' (aka 'long') to 'TPLUInteger' (aka 'unsigned int') [-Wshorten-64-to-32,3]         return it-m_objects.begin();         ~~~~~~ ^~~~~~~~~~~~~~~~~~~~/Volumes/Data/MACCPP/MkXTBWikiplexus/TPList/TPLArray.cpp:150:9:{150:9-150:25}{150:2-150:8}: warning: implicit conversion loses integer precision: 'size_type' (aka 'unsigned long') to 'TPLUInteger' (aka 'unsigned int') [-Wshorten-64-to-32,3]         return m_objects.size();         ~~~~~~ ^~~~~~~~~~~~~~~~2 warnings generated.2(21%IDEActivityLogMessage2@208"Implicit conversion loses integer precision: 'typename __normal_iterator<TPLObject *const *, vector<TPLObject *, allocator<TPLObject *> > >::difference_type' (aka 'long') to 'TPLUInteger' (aka 'unsigned int')157"Implicit conversion loses integer precision: 'typename __normal_iterator<TPLObject *const *, vector<TPLObject *, allocator<TPLObject *> > >::difference_type'334155973#0#333#-1#-23%DVTTextDocumentLocation3@72"file://localhost/Volumes/Data/MACCPP/MkXTBWikiplexus/TPList/TPLArray.cpp0000000000000000^145#8#145#8#18446744073709551615#0#14"Semantic Issue2(3@72"file://localhost/Volumes/Data/MACCPP/MkXTBWikiplexus/TPList/TPLArray.cpp0000000000000000^145#8#145#28#18446744073709551615#0#3@72"file://localhost/Volumes/Data/MACCPP/MkXTBWikiplexus/TPList/TPLArray.cpp0000000000000000^145#1#145#7#18446744073709551615#0#-2@116"Implicit conversion loses integer precision: 'size_type' (aka 'unsigned long') to 'TPLUInteger' (aka 'unsigned int')56"Implicit conversion loses integer precision: 'size_type'334155973#408#241#-1#-3@72"file://localhost/Volumes/Data/MACCPP/MkXTBWikiplexus/TPList/TPLArray.cpp0000000000000000^149#8#149#8#18446744073709551615#0#14"Semantic Issue2(3@72"file://localhost/Volumes/Data/MACCPP/MkXTBWikiplexus/TPList/TPLArray.cpp0000000000000000^149#8#149#24#18446744073709551615#0#3@72"file://localhost/Volumes/Data/MACCPP/MkXTBWikiplexus/TPList/TPLArray.cpp0000000000000000^149#1#149#7#18446744073709551615#0#-0#0#0#-19%DVTDocumentLocation4@72"file://localhost/Volumes/Data/MACCPP/MkXTBWikiplexus/TPList/TPLArray.cpp0000000000000000^2848"CompileC MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/Objects-normal/x86_64/TPLArray.o TPList/TPLArray.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Volumes/Data/MACCPP/MkXTBWikiplexus    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshorten-64-to-32 -Wc++0x-extensions -DDEBUG=1 -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/MkXTBWikiplexus-generated-files.hmap -I/Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/MkXTBWikiplexus-own-target-headers.hmap -I/Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/MkXTBWikiplexus-all-target-headers.hmap -iquote /Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/MkXTBWikiplexus-project-headers.hmap -I/Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Products/Debug/include -I/usr/local/include -I/Developer/SDKs/MacOSX10.7.sdk/usr/include/libxml2 -I/Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/DerivedSources/x86_64 -I/Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/DerivedSources -F/Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Products/Debug -include /Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/PrecompiledHeaders/stdafx-dszmihekmyobvhgiglwdastjzlmi/stdafx.h -MMD -MT dependencies -MF /Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/Objects-normal/x86_64/TPLArray.d -c /Volumes/Data/MACCPP/MkXTBWikiplexus/TPList/TPLArray.cpp -o /Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/Objects-normal/x86_64/TPLArray.o36"98AC1989-D29D-4C39-8B7E-E6CDE084E81A-
+
+CCompileC MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/Objects-normal/x86_64/TPLDictionary.o /Volumes/Data/MACCPP/MkXTBWikiplexus/TPList/TPLDictionary.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s334155973.244072
+e334155973.757872
+r1
+xCompileC
+xMkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/Objects-normal/x86_64/TPLDictionary.o
+x/Volumes/Data/MACCPP/MkXTBWikiplexus/TPList/TPLDictionary.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Volumes/Data/MACCPP/MkXTBWikiplexus/TPList/TPLDictionary.cpp:148:9:{148:9-148:25}{148:2-148:8}: warning: implicit conversion loses integer precision: 'size_type' (aka 'unsigned long') to 'TPLUInteger' (aka 'unsigned int') [-Wshorten-64-to-32,3]
+o         return m_objects.size();
+o         ~~~~~~ ^~~~~~~~~~~~~~~~
+o1 warning generated.
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection69"Compile /Volumes/Data/MACCPP/MkXTBWikiplexus/TPList/TPLDictionary.cppfca83ec5d0eab341^e812c2c5d0eab341^-334"/Volumes/Data/MACCPP/MkXTBWikiplexus/TPList/TPLDictionary.cpp:148:9:{148:9-148:25}{148:2-148:8}: warning: implicit conversion loses integer precision: 'size_type' (aka 'unsigned long') to 'TPLUInteger' (aka 'unsigned int') [-Wshorten-64-to-32,3]         return m_objects.size();         ~~~~~~ ^~~~~~~~~~~~~~~~1 warning generated.1(21%IDEActivityLogMessage2@116"Implicit conversion loses integer precision: 'size_type' (aka 'unsigned long') to 'TPLUInteger' (aka 'unsigned int')56"Implicit conversion loses integer precision: 'size_type'334155973#0#246#-1#-23%DVTTextDocumentLocation3@77"file://localhost/Volumes/Data/MACCPP/MkXTBWikiplexus/TPList/TPLDictionary.cpp0000000000000000^147#8#147#8#18446744073709551615#0#14"Semantic Issue2(3@77"file://localhost/Volumes/Data/MACCPP/MkXTBWikiplexus/TPList/TPLDictionary.cpp0000000000000000^147#8#147#24#18446744073709551615#0#3@77"file://localhost/Volumes/Data/MACCPP/MkXTBWikiplexus/TPList/TPLDictionary.cpp0000000000000000^147#1#147#7#18446744073709551615#0#-0#0#0#-19%DVTDocumentLocation4@77"file://localhost/Volumes/Data/MACCPP/MkXTBWikiplexus/TPList/TPLDictionary.cpp0000000000000000^2873"CompileC MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/Objects-normal/x86_64/TPLDictionary.o TPList/TPLDictionary.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Volumes/Data/MACCPP/MkXTBWikiplexus    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshorten-64-to-32 -Wc++0x-extensions -DDEBUG=1 -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/MkXTBWikiplexus-generated-files.hmap -I/Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/MkXTBWikiplexus-own-target-headers.hmap -I/Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/MkXTBWikiplexus-all-target-headers.hmap -iquote /Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/MkXTBWikiplexus-project-headers.hmap -I/Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Products/Debug/include -I/usr/local/include -I/Developer/SDKs/MacOSX10.7.sdk/usr/include/libxml2 -I/Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/DerivedSources/x86_64 -I/Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/DerivedSources -F/Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Products/Debug -include /Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/PrecompiledHeaders/stdafx-dszmihekmyobvhgiglwdastjzlmi/stdafx.h -MMD -MT dependencies -MF /Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/Objects-normal/x86_64/TPLDictionary.d -c /Volumes/Data/MACCPP/MkXTBWikiplexus/TPList/TPLDictionary.cpp -o /Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/Objects-normal/x86_64/TPLDictionary.o36"20F9B4AA-C07D-4C97-B4AC-1B4A81E0E69B-
+
+CCompileC MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/Objects-normal/x86_64/TPLException.o /Volumes/Data/MACCPP/MkXTBWikiplexus/TPList/TPLException.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s334155973.479275
+e334155973.567018
+r1
+xCompileC
+xMkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/Objects-normal/x86_64/TPLException.o
+x/Volumes/Data/MACCPP/MkXTBWikiplexus/TPList/TPLException.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection68"Compile /Volumes/Data/MACCPP/MkXTBWikiplexus/TPList/TPLException.cpp0fee7ac5d0eab341^e04898c5d0eab341^---0#0#0#-19%DVTDocumentLocation2@76"file://localhost/Volumes/Data/MACCPP/MkXTBWikiplexus/TPList/TPLException.cpp0000000000000000^2868"CompileC MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/Objects-normal/x86_64/TPLException.o TPList/TPLException.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Volumes/Data/MACCPP/MkXTBWikiplexus    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshorten-64-to-32 -Wc++0x-extensions -DDEBUG=1 -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/MkXTBWikiplexus-generated-files.hmap -I/Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/MkXTBWikiplexus-own-target-headers.hmap -I/Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/MkXTBWikiplexus-all-target-headers.hmap -iquote /Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/MkXTBWikiplexus-project-headers.hmap -I/Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Products/Debug/include -I/usr/local/include -I/Developer/SDKs/MacOSX10.7.sdk/usr/include/libxml2 -I/Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/DerivedSources/x86_64 -I/Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/DerivedSources -F/Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Products/Debug -include /Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/PrecompiledHeaders/stdafx-dszmihekmyobvhgiglwdastjzlmi/stdafx.h -MMD -MT dependencies -MF /Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/Objects-normal/x86_64/TPLException.d -c /Volumes/Data/MACCPP/MkXTBWikiplexus/TPList/TPLException.cpp -o /Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/Objects-normal/x86_64/TPLException.o36"127BCAF9-753F-47A8-B8EE-E01092114893-
+
+CCompileC MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/Objects-normal/x86_64/TPLNumber.o /Volumes/Data/MACCPP/MkXTBWikiplexus/TPList/TPLNumber.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s334155973.568563
+e334155973.696150
+r1
+xCompileC
+xMkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/Objects-normal/x86_64/TPLNumber.o
+x/Volumes/Data/MACCPP/MkXTBWikiplexus/TPList/TPLNumber.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection65"Compile /Volumes/Data/MACCPP/MkXTBWikiplexus/TPList/TPLNumber.cpp11c891c5d0eab341^ac3bb2c5d0eab341^---0#0#0#-19%DVTDocumentLocation2@73"file://localhost/Volumes/Data/MACCPP/MkXTBWikiplexus/TPList/TPLNumber.cpp0000000000000000^2853"CompileC MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/Objects-normal/x86_64/TPLNumber.o TPList/TPLNumber.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Volumes/Data/MACCPP/MkXTBWikiplexus    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshorten-64-to-32 -Wc++0x-extensions -DDEBUG=1 -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/MkXTBWikiplexus-generated-files.hmap -I/Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/MkXTBWikiplexus-own-target-headers.hmap -I/Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/MkXTBWikiplexus-all-target-headers.hmap -iquote /Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/MkXTBWikiplexus-project-headers.hmap -I/Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Products/Debug/include -I/usr/local/include -I/Developer/SDKs/MacOSX10.7.sdk/usr/include/libxml2 -I/Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/DerivedSources/x86_64 -I/Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/DerivedSources -F/Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Products/Debug -include /Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/PrecompiledHeaders/stdafx-dszmihekmyobvhgiglwdastjzlmi/stdafx.h -MMD -MT dependencies -MF /Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/Objects-normal/x86_64/TPLNumber.d -c /Volumes/Data/MACCPP/MkXTBWikiplexus/TPList/TPLNumber.cpp -o /Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/Objects-normal/x86_64/TPLNumber.o36"C4012C33-194E-44C3-B242-0613E2F73CD4-
+
+CCompileC MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/Objects-normal/x86_64/TPLObject.o /Volumes/Data/MACCPP/MkXTBWikiplexus/TPList/TPLObject.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s334155973.697482
+e334155973.790407
+r1
+xCompileC
+xMkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/Objects-normal/x86_64/TPLObject.o
+x/Volumes/Data/MACCPP/MkXTBWikiplexus/TPList/TPLObject.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection65"Compile /Volumes/Data/MACCPP/MkXTBWikiplexus/TPList/TPLObject.cpp34bbb2c5d0eab341^da72cac5d0eab341^---0#0#0#-19%DVTDocumentLocation2@73"file://localhost/Volumes/Data/MACCPP/MkXTBWikiplexus/TPList/TPLObject.cpp0000000000000000^2853"CompileC MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/Objects-normal/x86_64/TPLObject.o TPList/TPLObject.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Volumes/Data/MACCPP/MkXTBWikiplexus    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshorten-64-to-32 -Wc++0x-extensions -DDEBUG=1 -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/MkXTBWikiplexus-generated-files.hmap -I/Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/MkXTBWikiplexus-own-target-headers.hmap -I/Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/MkXTBWikiplexus-all-target-headers.hmap -iquote /Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/MkXTBWikiplexus-project-headers.hmap -I/Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Products/Debug/include -I/usr/local/include -I/Developer/SDKs/MacOSX10.7.sdk/usr/include/libxml2 -I/Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/DerivedSources/x86_64 -I/Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/DerivedSources -F/Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Products/Debug -include /Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/PrecompiledHeaders/stdafx-dszmihekmyobvhgiglwdastjzlmi/stdafx.h -MMD -MT dependencies -MF /Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/Objects-normal/x86_64/TPLObject.d -c /Volumes/Data/MACCPP/MkXTBWikiplexus/TPList/TPLObject.cpp -o /Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/Objects-normal/x86_64/TPLObject.o36"6A5416B0-1BFF-4880-9164-65FEDB8530A5-
+
+CCompileC MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/Objects-normal/x86_64/TPLPropertyListSerialization.o /Volumes/Data/MACCPP/MkXTBWikiplexus/TPList/TPLPropertyListSerialization.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s334155973.760791
+e334155974.950516
+r1
+xCompileC
+xMkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/Objects-normal/x86_64/TPLPropertyListSerialization.o
+x/Volumes/Data/MACCPP/MkXTBWikiplexus/TPList/TPLPropertyListSerialization.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection84"Compile /Volumes/Data/MACCPP/MkXTBWikiplexus/TPList/TPLPropertyListSerialization.cpp0af3c2c5d0eab341^2382f5c6d0eab341^---0#0#0#-19%DVTDocumentLocation2@92"file://localhost/Volumes/Data/MACCPP/MkXTBWikiplexus/TPList/TPLPropertyListSerialization.cpp0000000000000000^2948"CompileC MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/Objects-normal/x86_64/TPLPropertyListSerialization.o TPList/TPLPropertyListSerialization.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Volumes/Data/MACCPP/MkXTBWikiplexus    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshorten-64-to-32 -Wc++0x-extensions -DDEBUG=1 -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/MkXTBWikiplexus-generated-files.hmap -I/Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/MkXTBWikiplexus-own-target-headers.hmap -I/Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/MkXTBWikiplexus-all-target-headers.hmap -iquote /Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/MkXTBWikiplexus-project-headers.hmap -I/Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Products/Debug/include -I/usr/local/include -I/Developer/SDKs/MacOSX10.7.sdk/usr/include/libxml2 -I/Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/DerivedSources/x86_64 -I/Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/DerivedSources -F/Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Products/Debug -include /Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/PrecompiledHeaders/stdafx-dszmihekmyobvhgiglwdastjzlmi/stdafx.h -MMD -MT dependencies -MF /Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/Objects-normal/x86_64/TPLPropertyListSerialization.d -c /Volumes/Data/MACCPP/MkXTBWikiplexus/TPList/TPLPropertyListSerialization.cpp -o /Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/Objects-normal/x86_64/TPLPropertyListSerialization.o36"94DB2CEE-EA12-4E71-AE3E-0B107DCE1C6D-
+
+CCompileC MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/Objects-normal/x86_64/TPLString.o /Volumes/Data/MACCPP/MkXTBWikiplexus/TPList/TPLString.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s334155973.791761
+e334155973.988222
+r1
+xCompileC
+xMkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/Objects-normal/x86_64/TPLString.o
+x/Volumes/Data/MACCPP/MkXTBWikiplexus/TPList/TPLString.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Volumes/Data/MACCPP/MkXTBWikiplexus/TPList/TPLString.cpp:53:9:{53:9-53:24}{53:2-53:8}: warning: implicit conversion loses integer precision: 'size_type' (aka 'unsigned long') to 'TPLUInteger' (aka 'unsigned int') [-Wshorten-64-to-32,3]
+o         return m_string.size();
+o         ~~~~~~ ^~~~~~~~~~~~~~~
+o1 warning generated.
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection65"Compile /Volumes/Data/MACCPP/MkXTBWikiplexus/TPList/TPLString.cpp3bc4cbc5d0eab341^664f02c6d0eab341^-323"/Volumes/Data/MACCPP/MkXTBWikiplexus/TPList/TPLString.cpp:53:9:{53:9-53:24}{53:2-53:8}: warning: implicit conversion loses integer precision: 'size_type' (aka 'unsigned long') to 'TPLUInteger' (aka 'unsigned int') [-Wshorten-64-to-32,3]         return m_string.size();         ~~~~~~ ^~~~~~~~~~~~~~~1 warning generated.1(21%IDEActivityLogMessage2@116"Implicit conversion loses integer precision: 'size_type' (aka 'unsigned long') to 'TPLUInteger' (aka 'unsigned int')56"Implicit conversion loses integer precision: 'size_type'334155973#0#237#-1#-23%DVTTextDocumentLocation3@73"file://localhost/Volumes/Data/MACCPP/MkXTBWikiplexus/TPList/TPLString.cpp0000000000000000^52#8#52#8#18446744073709551615#0#14"Semantic Issue2(3@73"file://localhost/Volumes/Data/MACCPP/MkXTBWikiplexus/TPList/TPLString.cpp0000000000000000^52#8#52#23#18446744073709551615#0#3@73"file://localhost/Volumes/Data/MACCPP/MkXTBWikiplexus/TPList/TPLString.cpp0000000000000000^52#1#52#7#18446744073709551615#0#-0#0#0#-19%DVTDocumentLocation4@73"file://localhost/Volumes/Data/MACCPP/MkXTBWikiplexus/TPList/TPLString.cpp0000000000000000^2853"CompileC MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/Objects-normal/x86_64/TPLString.o TPList/TPLString.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Volumes/Data/MACCPP/MkXTBWikiplexus    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshorten-64-to-32 -Wc++0x-extensions -DDEBUG=1 -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/MkXTBWikiplexus-generated-files.hmap -I/Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/MkXTBWikiplexus-own-target-headers.hmap -I/Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/MkXTBWikiplexus-all-target-headers.hmap -iquote /Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/MkXTBWikiplexus-project-headers.hmap -I/Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Products/Debug/include -I/usr/local/include -I/Developer/SDKs/MacOSX10.7.sdk/usr/include/libxml2 -I/Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/DerivedSources/x86_64 -I/Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/DerivedSources -F/Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Products/Debug -include /Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/PrecompiledHeaders/stdafx-dszmihekmyobvhgiglwdastjzlmi/stdafx.h -MMD -MT dependencies -MF /Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/Objects-normal/x86_64/TPLString.d -c /Volumes/Data/MACCPP/MkXTBWikiplexus/TPList/TPLString.cpp -o /Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/Objects-normal/x86_64/TPLString.o36"143EA13B-17FB-4429-B64A-5AC0331EAEF1-
+
+CCompileC MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/Objects-normal/x86_64/XTBArticleGenerator.o /Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus/XTBArticleGenerator.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s334155974.393905
+e334155975.126525
+r1
+xCompileC
+xMkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/Objects-normal/x86_64/XTBArticleGenerator.o
+x/Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus/XTBArticleGenerator.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection84"Compile /Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus/XTBArticleGenerator.cppd80f65c6d0eab341^007420c7d0eab341^---0#0#0#-19%DVTDocumentLocation2@92"file://localhost/Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus/XTBArticleGenerator.cpp0000000000000000^2921"CompileC MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/Objects-normal/x86_64/XTBArticleGenerator.o MkXTBWikiplexus/XTBArticleGenerator.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Volumes/Data/MACCPP/MkXTBWikiplexus    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshorten-64-to-32 -Wc++0x-extensions -DDEBUG=1 -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/MkXTBWikiplexus-generated-files.hmap -I/Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/MkXTBWikiplexus-own-target-headers.hmap -I/Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/MkXTBWikiplexus-all-target-headers.hmap -iquote /Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/MkXTBWikiplexus-project-headers.hmap -I/Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Products/Debug/include -I/usr/local/include -I/Developer/SDKs/MacOSX10.7.sdk/usr/include/libxml2 -I/Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/DerivedSources/x86_64 -I/Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/DerivedSources -F/Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Products/Debug -include /Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/PrecompiledHeaders/stdafx-dszmihekmyobvhgiglwdastjzlmi/stdafx.h -MMD -MT dependencies -MF /Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/Objects-normal/x86_64/XTBArticleGenerator.d -c /Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus/XTBArticleGenerator.cpp -o /Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/Objects-normal/x86_64/XTBArticleGenerator.o36"9F4ECB6D-3192-4333-96D1-D6970460A5A0-
+
+CCompileC MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/Objects-normal/x86_64/XTBDicDB.o /Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus/XTBDicDB.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s334155970.872476
+e334155971.352444
+r1
+xCompileC
+xMkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/Objects-normal/x86_64/XTBDicDB.o
+x/Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus/XTBDicDB.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection73"Compile /Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus/XTBDicDB.cppcd93dfc2d0eab341^c5395ac3d0eab341^---0#0#0#-19%DVTDocumentLocation2@81"file://localhost/Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus/XTBDicDB.cpp0000000000000000^2866"CompileC MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/Objects-normal/x86_64/XTBDicDB.o MkXTBWikiplexus/XTBDicDB.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Volumes/Data/MACCPP/MkXTBWikiplexus    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshorten-64-to-32 -Wc++0x-extensions -DDEBUG=1 -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/MkXTBWikiplexus-generated-files.hmap -I/Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/MkXTBWikiplexus-own-target-headers.hmap -I/Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/MkXTBWikiplexus-all-target-headers.hmap -iquote /Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/MkXTBWikiplexus-project-headers.hmap -I/Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Products/Debug/include -I/usr/local/include -I/Developer/SDKs/MacOSX10.7.sdk/usr/include/libxml2 -I/Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/DerivedSources/x86_64 -I/Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/DerivedSources -F/Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Products/Debug -include /Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/PrecompiledHeaders/stdafx-dszmihekmyobvhgiglwdastjzlmi/stdafx.h -MMD -MT dependencies -MF /Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/Objects-normal/x86_64/XTBDicDB.d -c /Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus/XTBDicDB.cpp -o /Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/Objects-normal/x86_64/XTBDicDB.o36"146AD720-1CE3-4270-9DA5-5D77F46A089C-
+
+CCompileC MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/Objects-normal/x86_64/XTBRawArticle.o /Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus/XTBRawArticle.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s334155973.989776
+e334155974.392540
+r1
+xCompileC
+xMkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/Objects-normal/x86_64/XTBRawArticle.o
+x/Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus/XTBRawArticle.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection78"Compile /Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus/XTBRawArticle.cpp378dfdc5d0eab341^ef8e64c6d0eab341^---0#0#0#-19%DVTDocumentLocation2@86"file://localhost/Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus/XTBRawArticle.cpp0000000000000000^2891"CompileC MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/Objects-normal/x86_64/XTBRawArticle.o MkXTBWikiplexus/XTBRawArticle.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Volumes/Data/MACCPP/MkXTBWikiplexus    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshorten-64-to-32 -Wc++0x-extensions -DDEBUG=1 -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/MkXTBWikiplexus-generated-files.hmap -I/Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/MkXTBWikiplexus-own-target-headers.hmap -I/Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/MkXTBWikiplexus-all-target-headers.hmap -iquote /Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/MkXTBWikiplexus-project-headers.hmap -I/Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Products/Debug/include -I/usr/local/include -I/Developer/SDKs/MacOSX10.7.sdk/usr/include/libxml2 -I/Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/DerivedSources/x86_64 -I/Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/DerivedSources -F/Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Products/Debug -include /Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/PrecompiledHeaders/stdafx-dszmihekmyobvhgiglwdastjzlmi/stdafx.h -MMD -MT dependencies -MF /Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/Objects-normal/x86_64/XTBRawArticle.d -c /Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus/XTBRawArticle.cpp -o /Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/Objects-normal/x86_64/XTBRawArticle.o36"0ABA48F5-8B89-498B-879F-4362BF20D474-
+
+CCompileC MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/Objects-normal/x86_64/articleProcessor.o /Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus/articleProcessor.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s334155971.847011
+e334155972.188508
+r1
+xCompileC
+xMkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/Objects-normal/x86_64/articleProcessor.o
+x/Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus/articleProcessor.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection81"Compile /Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus/articleProcessor.cpp4f23d9c3d0eab341^ab4130c4d0eab341^---0#0#0#-19%DVTDocumentLocation2@89"file://localhost/Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus/articleProcessor.cpp0000000000000000^2906"CompileC MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/Objects-normal/x86_64/articleProcessor.o MkXTBWikiplexus/articleProcessor.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Volumes/Data/MACCPP/MkXTBWikiplexus    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshorten-64-to-32 -Wc++0x-extensions -DDEBUG=1 -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/MkXTBWikiplexus-generated-files.hmap -I/Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/MkXTBWikiplexus-own-target-headers.hmap -I/Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/MkXTBWikiplexus-all-target-headers.hmap -iquote /Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/MkXTBWikiplexus-project-headers.hmap -I/Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Products/Debug/include -I/usr/local/include -I/Developer/SDKs/MacOSX10.7.sdk/usr/include/libxml2 -I/Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/DerivedSources/x86_64 -I/Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/DerivedSources -F/Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Products/Debug -include /Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/PrecompiledHeaders/stdafx-dszmihekmyobvhgiglwdastjzlmi/stdafx.h -MMD -MT dependencies -MF /Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/Objects-normal/x86_64/articleProcessor.d -c /Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus/articleProcessor.cpp -o /Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/Objects-normal/x86_64/articleProcessor.o36"52486E0B-8055-467E-B1D7-12E8C0771915-
+
+CCompileC MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/Objects-normal/x86_64/articleReader.o /Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus/articleReader.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s334155971.649401
+e334155971.845703
+r1
+xCompileC
+xMkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/Objects-normal/x86_64/articleReader.o
+x/Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus/articleReader.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection78"Compile /Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus/articleReader.cppac71a6c3d0eab341^f59cd8c3d0eab341^---0#0#0#-19%DVTDocumentLocation2@86"file://localhost/Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus/articleReader.cpp0000000000000000^2891"CompileC MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/Objects-normal/x86_64/articleReader.o MkXTBWikiplexus/articleReader.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Volumes/Data/MACCPP/MkXTBWikiplexus    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshorten-64-to-32 -Wc++0x-extensions -DDEBUG=1 -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/MkXTBWikiplexus-generated-files.hmap -I/Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/MkXTBWikiplexus-own-target-headers.hmap -I/Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/MkXTBWikiplexus-all-target-headers.hmap -iquote /Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/MkXTBWikiplexus-project-headers.hmap -I/Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Products/Debug/include -I/usr/local/include -I/Developer/SDKs/MacOSX10.7.sdk/usr/include/libxml2 -I/Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/DerivedSources/x86_64 -I/Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/DerivedSources -F/Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Products/Debug -include /Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/PrecompiledHeaders/stdafx-dszmihekmyobvhgiglwdastjzlmi/stdafx.h -MMD -MT dependencies -MF /Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/Objects-normal/x86_64/articleReader.d -c /Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus/articleReader.cpp -o /Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/Objects-normal/x86_64/articleReader.o36"F90E1D35-BC9E-449C-9CB1-55AD6CA9A6E1-
+
+CCompileC MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/Objects-normal/x86_64/main.o /Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus/main.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s334155971.353888
+e334155971.692540
+r1
+xCompileC
+xMkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/Objects-normal/x86_64/main.o
+x/Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus/main.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection69"Compile /Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus/main.cpp7ec95ac3d0eab341^aa48b1c3d0eab341^---0#0#0#-19%DVTDocumentLocation2@77"file://localhost/Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus/main.cpp0000000000000000^2846"CompileC MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/Objects-normal/x86_64/main.o MkXTBWikiplexus/main.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Volumes/Data/MACCPP/MkXTBWikiplexus    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshorten-64-to-32 -Wc++0x-extensions -DDEBUG=1 -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/MkXTBWikiplexus-generated-files.hmap -I/Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/MkXTBWikiplexus-own-target-headers.hmap -I/Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/MkXTBWikiplexus-all-target-headers.hmap -iquote /Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/MkXTBWikiplexus-project-headers.hmap -I/Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Products/Debug/include -I/usr/local/include -I/Developer/SDKs/MacOSX10.7.sdk/usr/include/libxml2 -I/Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/DerivedSources/x86_64 -I/Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/DerivedSources -F/Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Products/Debug -include /Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/PrecompiledHeaders/stdafx-dszmihekmyobvhgiglwdastjzlmi/stdafx.h -MMD -MT dependencies -MF /Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/Objects-normal/x86_64/main.d -c /Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus/main.cpp -o /Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/Objects-normal/x86_64/main.o36"114F283D-2D84-45F5-9A3E-1FF343CE5A87-
+
+CCompileC MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/Objects-normal/x86_64/siteInfo.o /Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus/siteInfo.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s334155972.054835
+e334155972.494185
+r1
+xCompileC
+xMkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/Objects-normal/x86_64/siteInfo.o
+x/Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus/siteInfo.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection73"Compile /Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus/siteInfo.cpp4e410ec4d0eab341^c39a7ec4d0eab341^---0#0#0#-19%DVTDocumentLocation2@81"file://localhost/Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus/siteInfo.cpp0000000000000000^2866"CompileC MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/Objects-normal/x86_64/siteInfo.o MkXTBWikiplexus/siteInfo.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Volumes/Data/MACCPP/MkXTBWikiplexus    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshorten-64-to-32 -Wc++0x-extensions -DDEBUG=1 -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/MkXTBWikiplexus-generated-files.hmap -I/Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/MkXTBWikiplexus-own-target-headers.hmap -I/Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/MkXTBWikiplexus-all-target-headers.hmap -iquote /Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/MkXTBWikiplexus-project-headers.hmap -I/Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Products/Debug/include -I/usr/local/include -I/Developer/SDKs/MacOSX10.7.sdk/usr/include/libxml2 -I/Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/DerivedSources/x86_64 -I/Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/DerivedSources -F/Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Products/Debug -include /Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/PrecompiledHeaders/stdafx-dszmihekmyobvhgiglwdastjzlmi/stdafx.h -MMD -MT dependencies -MF /Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/Objects-normal/x86_64/siteInfo.d -c /Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus/siteInfo.cpp -o /Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/Objects-normal/x86_64/siteInfo.o36"5DFB76F3-BAB4-466D-9C64-F0ECB036C485-
+
+CCompileC MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/Objects-normal/x86_64/tinyxml.o /Volumes/Data/MACCPP/MkXTBWikiplexus/TinyXML/tinyxml.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s334155972.190047
+e334155973.192619
+r1
+xCompileC
+xMkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/Objects-normal/x86_64/tinyxml.o
+x/Volumes/Data/MACCPP/MkXTBWikiplexus/TinyXML/tinyxml.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection64"Compile /Volumes/Data/MACCPP/MkXTBWikiplexus/TinyXML/tinyxml.cpp39d330c4d0eab341^a2996bc5d0eab341^---0#0#0#-19%DVTDocumentLocation2@72"file://localhost/Volumes/Data/MACCPP/MkXTBWikiplexus/TinyXML/tinyxml.cpp0000000000000000^2845"CompileC MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/Objects-normal/x86_64/tinyxml.o TinyXML/tinyxml.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Volumes/Data/MACCPP/MkXTBWikiplexus    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshorten-64-to-32 -Wc++0x-extensions -DDEBUG=1 -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/MkXTBWikiplexus-generated-files.hmap -I/Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/MkXTBWikiplexus-own-target-headers.hmap -I/Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/MkXTBWikiplexus-all-target-headers.hmap -iquote /Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/MkXTBWikiplexus-project-headers.hmap -I/Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Products/Debug/include -I/usr/local/include -I/Developer/SDKs/MacOSX10.7.sdk/usr/include/libxml2 -I/Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/DerivedSources/x86_64 -I/Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/DerivedSources -F/Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Products/Debug -include /Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/PrecompiledHeaders/stdafx-dszmihekmyobvhgiglwdastjzlmi/stdafx.h -MMD -MT dependencies -MF /Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/Objects-normal/x86_64/tinyxml.d -c /Volumes/Data/MACCPP/MkXTBWikiplexus/TinyXML/tinyxml.cpp -o /Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/Objects-normal/x86_64/tinyxml.o36"57416B82-A490-4755-825C-11B0F4BD24A9-
+
+CCompileC MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/Objects-normal/x86_64/tinyxmlerror.o /Volumes/Data/MACCPP/MkXTBWikiplexus/TinyXML/tinyxmlerror.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s334155972.495512
+e334155972.916824
+r1
+xCompileC
+xMkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/Objects-normal/x86_64/tinyxmlerror.o
+x/Volumes/Data/MACCPP/MkXTBWikiplexus/TinyXML/tinyxmlerror.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection69"Compile /Volumes/Data/MACCPP/MkXTBWikiplexus/TinyXML/tinyxmlerror.cppe1077fc4d0eab341^c8b4eac4d0eab341^---0#0#0#-19%DVTDocumentLocation2@77"file://localhost/Volumes/Data/MACCPP/MkXTBWikiplexus/TinyXML/tinyxmlerror.cpp0000000000000000^2870"CompileC MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/Objects-normal/x86_64/tinyxmlerror.o TinyXML/tinyxmlerror.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Volumes/Data/MACCPP/MkXTBWikiplexus    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshorten-64-to-32 -Wc++0x-extensions -DDEBUG=1 -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/MkXTBWikiplexus-generated-files.hmap -I/Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/MkXTBWikiplexus-own-target-headers.hmap -I/Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/MkXTBWikiplexus-all-target-headers.hmap -iquote /Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/MkXTBWikiplexus-project-headers.hmap -I/Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Products/Debug/include -I/usr/local/include -I/Developer/SDKs/MacOSX10.7.sdk/usr/include/libxml2 -I/Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/DerivedSources/x86_64 -I/Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/DerivedSources -F/Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Products/Debug -include /Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/PrecompiledHeaders/stdafx-dszmihekmyobvhgiglwdastjzlmi/stdafx.h -MMD -MT dependencies -MF /Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/Objects-normal/x86_64/tinyxmlerror.d -c /Volumes/Data/MACCPP/MkXTBWikiplexus/TinyXML/tinyxmlerror.cpp -o /Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/Objects-normal/x86_64/tinyxmlerror.o36"67D56ADF-DC5F-4EEF-BBB2-5E2B6B1F6863-
+
+CCompileC MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/Objects-normal/x86_64/tinyxmlparser.o /Volumes/Data/MACCPP/MkXTBWikiplexus/TinyXML/tinyxmlparser.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s334155970.872753
+e334155971.648023
+r1
+xCompileC
+xMkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/Objects-normal/x86_64/tinyxmlparser.o
+x/Volumes/Data/MACCPP/MkXTBWikiplexus/TinyXML/tinyxmlparser.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection70"Compile /Volumes/Data/MACCPP/MkXTBWikiplexus/TinyXML/tinyxmlparser.cpp8a93dfc2d0eab341^b1f8a5c3d0eab341^---0#0#0#-19%DVTDocumentLocation2@78"file://localhost/Volumes/Data/MACCPP/MkXTBWikiplexus/TinyXML/tinyxmlparser.cpp0000000000000000^2875"CompileC MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/Objects-normal/x86_64/tinyxmlparser.o TinyXML/tinyxmlparser.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Volumes/Data/MACCPP/MkXTBWikiplexus    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshorten-64-to-32 -Wc++0x-extensions -DDEBUG=1 -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/MkXTBWikiplexus-generated-files.hmap -I/Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/MkXTBWikiplexus-own-target-headers.hmap -I/Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/MkXTBWikiplexus-all-target-headers.hmap -iquote /Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/MkXTBWikiplexus-project-headers.hmap -I/Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Products/Debug/include -I/usr/local/include -I/Developer/SDKs/MacOSX10.7.sdk/usr/include/libxml2 -I/Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/DerivedSources/x86_64 -I/Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/DerivedSources -F/Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Products/Debug -include /Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/PrecompiledHeaders/stdafx-dszmihekmyobvhgiglwdastjzlmi/stdafx.h -MMD -MT dependencies -MF /Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/Objects-normal/x86_64/tinyxmlparser.d -c /Volumes/Data/MACCPP/MkXTBWikiplexus/TinyXML/tinyxmlparser.cpp -o /Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/Objects-normal/x86_64/tinyxmlparser.o36"F9089C5F-A686-4791-B7BA-13AE9BDD5EB0-
+
+CCompileC MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/Objects-normal/x86_64/utils.o /Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus/utils.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s334155971.693978
+e334155972.053477
+r1
+xCompileC
+xMkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/Objects-normal/x86_64/utils.o
+x/Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus/utils.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection70"Compile /Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus/utils.cppb7d4b1c3d0eab341^57b00dc4d0eab341^---0#0#0#-19%DVTDocumentLocation2@78"file://localhost/Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus/utils.cpp0000000000000000^2851"CompileC MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/Objects-normal/x86_64/utils.o MkXTBWikiplexus/utils.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Volumes/Data/MACCPP/MkXTBWikiplexus    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshorten-64-to-32 -Wc++0x-extensions -DDEBUG=1 -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/MkXTBWikiplexus-generated-files.hmap -I/Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/MkXTBWikiplexus-own-target-headers.hmap -I/Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/MkXTBWikiplexus-all-target-headers.hmap -iquote /Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/MkXTBWikiplexus-project-headers.hmap -I/Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Products/Debug/include -I/usr/local/include -I/Developer/SDKs/MacOSX10.7.sdk/usr/include/libxml2 -I/Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/DerivedSources/x86_64 -I/Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/DerivedSources -F/Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Products/Debug -include /Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/PrecompiledHeaders/stdafx-dszmihekmyobvhgiglwdastjzlmi/stdafx.h -MMD -MT dependencies -MF /Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/Objects-normal/x86_64/utils.d -c /Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus/utils.cpp -o /Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/Objects-normal/x86_64/utils.o36"8AF4660A-517E-49A6-9162-D068274955CE-
+
+CLd /Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Products/Debug/MkXTBWikiplexus normal x86_64
+s334155975.166242
+e334155975.274626
+r1
+xLd
+x/Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Products/Debug/MkXTBWikiplexus
+xnormal
+xx86_64
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection124"Link /Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Products/Debug/MkXTBWikiplexuscdab2ac7d0eab341^384e46c7d0eab341^---0#0#0#--915"Ld MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Products/Debug/MkXTBWikiplexus normal x86_64    cd /Volumes/Data/MACCPP/MkXTBWikiplexus    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/clang++ -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.7.sdk -L/Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Products/Debug -L/Developer/SDKs/MacOSX10.7.sdk/usr/local/lib -F/Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Products/Debug -filelist /Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/Objects-normal/x86_64/MkXTBWikiplexus.LinkFileList -mmacosx-version-min=10.6 -liconv -lmecab -lxml2 -o /Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Products/Debug/MkXTBWikiplexus36"B49E0C86-B268-4CB3-97E9-D28655E8A1F9-
+
+CProcessPCH++ /Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/PrecompiledHeaders/stdafx-dszmihekmyobvhgiglwdastjzlmi/stdafx.h.pth MkXTBWikiplexus/stdafx.h normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s334155970.234869
+e334155970.865663
+r1
+xProcessPCH++
+x/Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/PrecompiledHeaders/stdafx-dszmihekmyobvhgiglwdastjzlmi/stdafx.h.pth
+xMkXTBWikiplexus/stdafx.h
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection35"Precompile MkXTBWikiplexus/stdafx.h304a3cc2d0eab341^e59bddc2d0eab341^---0#0#0#-19%DVTDocumentLocation2@77"file://localhost/Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus/stdafx.h0000000000000000^2618"ProcessPCH++ MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/PrecompiledHeaders/stdafx-dszmihekmyobvhgiglwdastjzlmi/stdafx.h.pth MkXTBWikiplexus/stdafx.h normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Volumes/Data/MACCPP/MkXTBWikiplexus    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x c++-header -arch x86_64 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshorten-64-to-32 -Wc++0x-extensions -DDEBUG=1 -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/MkXTBWikiplexus-generated-files.hmap -I/Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/MkXTBWikiplexus-own-target-headers.hmap -I/Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/MkXTBWikiplexus-all-target-headers.hmap -iquote /Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/MkXTBWikiplexus-project-headers.hmap -I/Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Products/Debug/include -I/usr/local/include -I/Developer/SDKs/MacOSX10.7.sdk/usr/include/libxml2 -I/Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/DerivedSources/x86_64 -I/Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Intermediates/MkXTBWikiplexus.build/Debug/MkXTBWikiplexus.build/DerivedSources -F/Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Products/Debug -c /Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus/stdafx.h -o /Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/PrecompiledHeaders/stdafx-dszmihekmyobvhgiglwdastjzlmi/stdafx.h.pth -MMD -MT dependencies -MF /Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/PrecompiledHeaders/stdafx-dszmihekmyobvhgiglwdastjzlmi/stdafx.h.d36"CF852FF9-0F3C-4831-A8D3-E96CFF889C3D-
+
+CProcessPCH++ /Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Index/PrecompiledHeaders/stdafx-codqjalzwfwbucavpludlpoqtsyw_ast/stdafx.h.pth MkXTBWikiplexus/stdafx.h normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+

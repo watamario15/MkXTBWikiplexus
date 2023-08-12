@@ -1,0 +1,30 @@
+Contents of /Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus/stdafx.h
+3.0 (tags/Apple/clang-210.3) (based on LLVM 3.0svn)
+-x
+c++
+-arch
+x86_64
+-fmessage-length=0
+-fdiagnostics-print-source-range-info
+-fdiagnostics-show-category=id
+-fdiagnostics-parseable-fixits
+-fpascal-strings
+-O0
+-DDEBUG=1
+-isysroot
+/Developer/SDKs/MacOSX10.7.sdk
+-fasm-blocks
+-mmacosx-version-min=10.6
+-gdwarf-2
+-fvisibility-inlines-hidden
+-iquote
+-iquote
+-I/Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Products/Debug/include
+-I/usr/local/include
+-I/Developer/SDKs/MacOSX10.7.sdk/usr/include/libxml2
+-F/Volumes/Data/MACCPP/MkXTBWikiplexus/MkXTBWikiplexus.xcodeproj/DerivedData/project/Build/Products/Debug
+-ferror-limit=10
+-working-directory=/Volumes/Data/MACCPP/MkXTBWikiplexus
+-Xclang
+-detailed-preprocessing-record
+SDK_PRODUCT_BUILD_VERSION=11A511a
