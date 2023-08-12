@@ -51,7 +51,7 @@ XTBDicDB::~XTBDicDB(){
 
 void XTBDicDB::removeUnreachableKeys(){
 	
-	fprintf(stderr,"removing unreachable kesy...\n");
+	fprintf(stderr,"removing unreachable keys...\n");
 	std::vector<XTBDicDBKey> keys2;
 	for(size_t i=0;i<m_keys.size();i++){
 		XTBDicDBKey& k=m_keys[i];
@@ -71,8 +71,8 @@ void XTBDicDB::sortKeys(){
 
 void XTBDicDB::writeKeys() const{
 	fprintf(stderr,"writing %d keys...\n", (int)m_keys.size());
-	int prog1=0, prog1period=(int)m_keys.size()/2000;
-	int prog2=0, prog2period=prog1period*20;
+	int prog1=0, prog1period=(int)m_keys.size()/200;
+	int prog2=0, prog2period=prog1period*40;
 	
 	assert(m_keys.size()<=(size_t)UINT32_MAX);
 	uint32_t keyCount=(uint32_t)m_keys.size();
@@ -177,8 +177,8 @@ void XTBDicDB::writeEntry(const std::string &key, const std::string &text){
 		m_handlePos+=text.size();
 	}
 	
-	fprintf(stderr,"entry \"%s\" added (%d bytes)\n",
-		   key.c_str(), (int)text.size());
+	// fprintf(stderr,"entry \"%s\" added (%d bytes)\n",
+	// 	   key.c_str(), (int)text.size());
 	
 	m_keys.push_back(dicKey);
 	
@@ -199,8 +199,8 @@ void XTBDicDB::writeRedirect(const std::string &key, const std::string &newKey){
 	m_keys.push_back(dicKey);
 	m_indicesForKey[dicKey.key]=m_keys.size()-1;
 	
-	fprintf(stderr,"entry \"%s\" is redirect to \"%s\"\n",
-		   key.c_str(), newKey.c_str());
+	// fprintf(stderr,"entry \"%s\" is redirect to \"%s\"\n",
+	// 	   key.c_str(), newKey.c_str());
 	
 }
 
@@ -224,8 +224,8 @@ void XTBDicDB::resolveRedirect(size_t index, int depth){
 	if(depth>32){
 		// too deep redirection.
 		key.unreachable=true;
-		fprintf(stderr, "warning: redirection loop detected at \"%s\".\n",
-				key.redirection.c_str());
+		// fprintf(stderr, "warning: redirection loop detected at \"%s\".\n",
+		// 		key.redirection.c_str());
 		return;
 	}
 	
@@ -237,8 +237,8 @@ void XTBDicDB::resolveRedirect(size_t index, int depth){
 	if(it==m_indicesForKey.end()){
 		// target not found.
 		key.unreachable=true;
-		fprintf(stderr, "warning: redirected page \"%s\" not found.\n",
-				redirectTarget.c_str());
+		// fprintf(stderr, "warning: redirected page \"%s\" not found.\n",
+		// 		redirectTarget.c_str());
 		return;
 	}
 	

@@ -317,7 +317,7 @@ static size_t sanitizeElement(const std::string& html,
 				// pre. ignore while </pre> is found.
 				nextPos=html.find("</pre>", nextPos);
 				if(nextPos==std::string::npos){
-					fprintf(stderr, "warning: sanitizeList: </pre> not found.\n");
+					// fprintf(stderr, "warning: sanitizeList: </pre> not found.\n");
 					nextPos=html.size();
 				}
 				outHtml+='<';
@@ -343,7 +343,7 @@ static size_t sanitizeElement(const std::string& html,
 			
 			nextPos=html.find('>', nextPos);
 			if(nextPos==std::string::npos){
-				fprintf(stderr, "warning: sanitizeList: opening tag not closed.\n");
+				// fprintf(stderr, "warning: sanitizeList: opening tag not closed.\n");
 				continue;
 			}
 			
@@ -424,7 +424,7 @@ static std::string sanitizeHTML(const std::string& html){
 	std::string::size_type pos;
 	pos=sanitizeElement(txt, txt2, 0, true);
 	if(pos<txt.size()){
-		fprintf(stderr, "warning: sanitizing strange!\n");
+		// fprintf(stderr, "warning: sanitizing strange!\n");
 	}
 	txt2.append(txt, pos, txt.size()-pos);
 	
@@ -483,17 +483,17 @@ void XTBProcessArticle(const std::string& title,
 		
 		std::string g_templatePrefix=XTBNameForStandardNamespace(TWStandardNamespaceTemplate)+':';
 		
+		/*
 		if(txt.empty()){
-			fprintf(stderr,"article %s was skipped because it's empty\n",
-				   title.c_str());
+			fprintf(stderr,"article %s was skipped because it's empty\n", title.c_str());
 		}
-		
+		*/
+
 		bool isRedirect=isTextRedirect(text);
 		std::string redirectTarget=redirectTargetForText(text);
 		
 		if(isRedirect && redirectTarget.empty()){
-			fprintf(stderr, "warning: invalid redirection in \"%s\". ignoring.\n",
-					title.c_str());
+			// fprintf(stderr, "warning: invalid redirection in \"%s\". ignoring.\n", title.c_str());
 			return;
 		}
 		
@@ -524,9 +524,8 @@ void XTBProcessArticle(const std::string& title,
 				preprocessedWiki=preprocessForInclusion(txt);
 				
 				if(preprocessedWiki.size()>g_templateSizeLimit){
-					fprintf(stderr,"template %s was skipped because its size(%d) exceeds limit(%d)\n",
-						   title.c_str(), (int)preprocessedWiki.size(),
-						   (int)g_templateSizeLimit);
+					// fprintf(stderr,"template %s was skipped because its size(%d) exceeds limit(%d)\n",
+					// 	   title.c_str(), (int)preprocessedWiki.size(), (int)g_templateSizeLimit);
 					return;
 				}
 				

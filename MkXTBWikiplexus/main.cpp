@@ -68,8 +68,8 @@ static void handleArticle(xmlNodePtr node, void *, long bytes){
 
 	std::string ns=XTBNamespaceForTitle(title);
 	if(XTBIsNamespaceExcluded(ns)){
-		fprintf(stderr,"namespace of %s was excluded\n",
-			   title.c_str());
+		// fprintf(stderr,"namespace %s excluded\n",
+		// 	   title.c_str());
 		return;
 	}
 	
@@ -96,8 +96,7 @@ static void handleArticle(xmlNodePtr node, void *, long bytes){
 												   BAD_CAST "revision");
 	
 	if(!revision){
-		fprintf(stderr, "article %s doesn't have <revision>\n",
-				title.c_str());
+		// fprintf(stderr, "article %s doesn't have <revision>\n", title.c_str());
 		return;
 	}
 	
@@ -107,10 +106,10 @@ static void handleArticle(xmlNodePtr node, void *, long bytes){
 	
 	// output log.
 	
-	fprintf(stderr,"converting \"%s\" (%d bytes) at offset %llu (0x%llx)\n",
-		   title.c_str(), (int)text.size(), realBytes, realBytes);
+	// fprintf(stderr,"converting \"%s\" (%d bytes) at offset %llu (0x%llx)\n",
+	// 	   title.c_str(), (int)text.size(), realBytes, realBytes);
 	
-	fprintf(stderr, "   [%s]\n", title.c_str());
+	// fprintf(stderr, "   [%s]\n", title.c_str());
 	
 	XTBProcessArticle(title, text, 
 					  g_articleDb, g_templateDb,

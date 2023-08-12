@@ -21,8 +21,8 @@ XTBRawArticle::XTBRawArticle(const std::string& wiki){
 	size_t firstLines=g_lines.size();
 	doBraceStuff();
 	
-	fprintf(stderr,"clustered liness from %d to %d lines\n",
-		   (int)firstLines, (int)g_lines.size());
+	// fprintf(stderr,"clustered liness from %d to %d lines\n",
+	// 	   (int)firstLines, (int)g_lines.size());
 	
 	if(g_shouldPage){
 		
@@ -31,8 +31,8 @@ XTBRawArticle::XTBRawArticle(const std::string& wiki){
 		
 		removeEmptyPages();
 		
-		fprintf(stderr,"%d page(s) generated.\n",
-			   (int)pageCount());
+		// fprintf(stderr,"%d page(s) generated.\n",
+		// 	   (int)pageCount());
 		
 		adjustPage();
 	}
@@ -133,7 +133,7 @@ void XTBRawArticle::explode(){
 			if(pos2==std::string::npos){
 				// element is not closed.
 				g_lines.push_back(g_inputWiki.substr(lastPos));
-				fprintf(stderr, "warning: element invalidly closed\n");
+				// fprintf(stderr, "warning: element invalidly closed\n");
 				lastPos=g_inputWiki.size();
 				break;
 			}
@@ -185,22 +185,26 @@ void XTBRawArticle::doBraceStuff(){
 				openCount+=XTBCountOfSubstring(line2, "{");
 				closeCount+=XTBCountOfSubstring(line2, "}");
 				
+				/*
 				if(closeCount>openCount){
 					fprintf(stderr, "warning: brace was closed too much (%d>%d)\n",
 							(int)closeCount, (int)openCount);
 				}
-				
+				*/
+
 				if(openCount<=closeCount)
 					break;
 				
 			}
 			
+			/*
 			if(closeCount<openCount){
 				fprintf(stderr, "warning: brace was not closed much enough (%d<%d)\n",
 						(int)closeCount, (int)openCount);
 				
 			}
-			
+			*/
+
 			newLines.push_back(outLine);
 			
 		}else{
@@ -209,12 +213,14 @@ void XTBRawArticle::doBraceStuff(){
 			
 			newLines.push_back(line);
 			
+			/*
 			// report error if there is one.
 			if(closeCount>openCount){
 				fprintf(stderr, "warning: brace was closed too much (%d>%d)\n",
 						(int)closeCount, (int)openCount);
 			}
-			
+			*/
+
 			i++;
 		}
 	}
@@ -259,10 +265,8 @@ void XTBRawArticle::doPage(){
 		count=countToFitInRange(lastLine, g_lines.size());
 		if(count==0){
 			count=1; // blank page? not!
-			fprintf(stderr, "page %d with %d bytes exceeds limit %d bytes\n",
-					(int)g_pages.size(),
-					(int)g_lines[lastLine].size(),
-					(int)g_pageSplitSize);
+			// fprintf(stderr, "page %d with %d bytes exceeds limit %d bytes\n",
+			// 		(int)g_pages.size(), (int)g_lines[lastLine].size(), (int)g_pageSplitSize);
 			
 			//puts(g_lines[lastLine].c_str());
 			//abort();
@@ -379,7 +383,7 @@ std::vector<XTBRawArticleIndexItem> XTBRawArticle::indicesForPage(int page) cons
 	}
 	
 	if(g_lines.empty()){
-		fprintf(stderr, "warning: indicesForPage: empty\n");
+		// fprintf(stderr, "warning: indicesForPage: empty\n");
 		return indices;
 	}
 	

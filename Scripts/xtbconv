@@ -5,15 +5,28 @@ DICTDIR=${DICTDIR:-~/Dictionaries}
 PLIST=${PLIST:-~/info-plists}
 WIKIMEDIA_MIRROR=${WIKIMEDIA_MIRROR:-https://dumps.wikimedia.org}
 
-my7z() {
+get_7z() {
   if which 7z &> /dev/null; then
-    7z "$@"
+    echo 7z
     return 0
   elif which 7zz &> /dev/null; then
-    7zz "$@"
+    echo 7zz
     return 0
   else
-    echo "Error: 7-Zip not found."
+    echo "Error: 7-Zip not found." >&2
+    return 127
+  fi
+}
+
+get_magick() {
+  if which magick &> /dev/null; then
+    echo magick
+    return 0
+  elif which convert &> /dev/null; then
+    echo convert
+    return 0
+  else
+    echo "Error: ImageMagick not found." >&2
     return 127
   fi
 }
@@ -52,7 +65,7 @@ if [ "$1" = "wikimedia" ]; then
   echo "Downloading and extracting an XML dump, and running MkXTBWikiplexus..."
   curl -sSfL "$WIKIMEDIA_MIRROR/$2/$3/$2-$3-pages-articles.xml.bz2" \
     | bunzip2 \
-    | MkXTBWikiplexus-bin -o "$2-$3.xtbdict" -s -x1 -x2 -x3 -x4 -x5 -x6 -x7 -x8 -x9 -x11 -x12 -x13 -x14 -x15 -x110 -x111 -x117 -m 2> /dev/null \
+    | MkXTBWikiplexus-bin -o "$2-$3.xtbdict" -s -x1 -x2 -x3 -x4 -x5 -x6 -x7 -x8 -x9 -x11 -x12 -x13 -x14 -x15 -x110 -x111 -x117 -m \
     | MkRax-bin -o Articles.db.rax
   result=( "${PIPESTATUS[@]}" )
   test "${result[0]}" -eq 0
@@ -62,6 +75,8 @@ if [ "$1" = "wikimedia" ]; then
 
 elif [ "$1" = "uncyclomedia" ]; then
   if [[ "$2" = *unwikiimg ]]; then
+    MAGICK=$(get_magick)
+
     echo "Downloading and extracting images..."
     curl -sSfLO "https://download.uncyc.org/${2%%unwikiimg*}-images.zip"
     mkdir "${2%%unwikiimg*}-images"
@@ -70,12 +85,10 @@ elif [ "$1" = "uncyclomedia" ]; then
 
     echo "Converting and resizing images..."
     mkdir resized
-    cd "${2%%unwikiimg*}-images"
-    find . -type f -exec basename {} \; -exec convert {} -quality 85 -resize 800x480\> ../resized/{}.jpg \;
-    cd ..
+    find ${2%%unwikiimg*}-images -type f -print0 | xargs -P$(nproc) -0 -I{} ${MAGICK} {} -set filename:orig '%f' -quality 85 -resize 800x480\> 'resized/%[filename:orig].jpg'
 
     echo "Running MkImageComplex..."
-    find resized -name "*.jpg" | MkImageComplex-bin -o "$2-$3.xtbdict" &> /dev/null
+    find resized -name "*.jpg" | MkImageComplex-bin -o "$2-$3.xtbdict"
     test "${PIPESTATUS[0]}" -eq 0
 
     echo "Finalizing..."
@@ -102,7 +115,7 @@ elif [ "$1" = "uncyclomedia" ]; then
     echo "Downloading and extracting an XML dump, and running MkXTBWikiplexus..."
     curl -sSfL "https://download.uncyc.org/${2%%unwiki*}-wiki.xml.bz2" \
       | bunzip2 \
-      | MkXTBWikiplexus-bin -o "$2-$3.xtbdict" -s 2> /dev/null -x1 -x2 -x3 -x4 -x5 -x6 -x7 -x8 -x9 -x11 -x12 -x13 -x14 -x15 -x110 -x111 -x117 -m \
+      | MkXTBWikiplexus-bin -o "$2-$3.xtbdict" -s -x1 -x2 -x3 -x4 -x5 -x6 -x7 -x8 -x9 -x11 -x12 -x13 -x14 -x15 -x110 -x111 -x117 -m \
       | MkRax-bin -o Articles.db.rax
     result=( "${PIPESTATUS[@]}" )
     test "${result[0]}" -eq 0
@@ -117,10 +130,12 @@ elif [ "$1" = "uncyclomedia" ]; then
   fi
 
 elif [ "$1" = "fandom" ]; then
+  SEVENZ=$(get_7z)
+
   echo "Downloading and extracting an XML dump, and running MkXTBWikiplexus..."
   curl -sSfLO "https://s3.amazonaws.com/wikia_xml_dumps/${2:0:1}/${2:0:2}/$2_pages_current.xml.7z"
-  my7z x "$2_pages_current.xml.7z" -so \
-    | MkXTBWikiplexus-bin -o "$2-$3.xtbdict" -s -x1 -x2 -x3 -x4 -x5 -x6 -x7 -x8 -x9 -x11 -x12 -x13 -x14 -x15 -x110 -x111 -x117 -m 2> /dev/null \
+  ${SEVENZ} x "$2_pages_current.xml.7z" -so \
+    | MkXTBWikiplexus-bin -o "$2-$3.xtbdict" -s -x1 -x2 -x3 -x4 -x5 -x6 -x7 -x8 -x9 -x11 -x12 -x13 -x14 -x15 -x110 -x111 -x117 -m \
     | MkRax-bin -o Articles.db.rax
   result=( "${PIPESTATUS[@]}" )
   test "${result[0]}" -eq 0
@@ -132,7 +147,7 @@ elif [[ $1 = *.xml ]]; then
   test -e "$1"
 
   echo "Running MkXTBWikiplexus..."
-  MkXTBWikiplexus-bin -o "$2-$3.xtbdict" -s -x1 -x2 -x3 -x4 -x5 -x6 -x7 -x8 -x9 -x11 -x12 -x13 -x14 -x15 -x110 -x111 -x117 -m < "$1" 2> /dev/null | MkRax-bin -o Articles.db.rax
+  MkXTBWikiplexus-bin -o "$2-$3.xtbdict" -s -x1 -x2 -x3 -x4 -x5 -x6 -x7 -x8 -x9 -x11 -x12 -x13 -x14 -x15 -x110 -x111 -x117 -m < "$1" | MkRax-bin -o Articles.db.rax
   test "${PIPESTATUS[0]}" -eq 0
   mv Articles.db.rax "$2-$3.xtbdict/"
 
@@ -144,7 +159,7 @@ fi
 
 cd "$2-$3.xtbdict"
 echo "Running YomiGenesis..."
-YomiGenesis-bin < BaseNames.csv > Yomi.txt 2> /dev/null
+YomiGenesis-bin < BaseNames.csv > Yomi.txt
 
 echo "Running MkXTBIndexDB..."
 MkXTBIndexDB-bin -o Search Yomi.txt

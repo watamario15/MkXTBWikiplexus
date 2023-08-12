@@ -14,6 +14,8 @@
 #include <errno.h>
 #include "../MkXTBWikiplexus/utils.h"
 
+#include <iostream>
+
 static std::string g_outputBundle;
 static XTBDicDB *g_dicDB;
 static FILE *g_titlesList;
@@ -94,7 +96,7 @@ static std::string bytesForImageAtPath(const std::string& path, XTBSize size){
 }
 
 static void handleFile(const std::string& path){
-	fprintf(stderr,"processing \"%s\"...\n", path.c_str());
+	// fprintf(stderr,"processing \"%s\"...\n", path.c_str());
 	
 	try{
 		
@@ -106,7 +108,7 @@ static void handleFile(const std::string& path){
 		
 		XTBSize size=sizeForJpegAtPath(path);
 		
-		fprintf(stderr,"info: dimension %d x %d jpeg file \"%s\"\n", size.w, size.h, title.c_str());
+		// fprintf(stderr,"info: dimension %d x %d jpeg file \"%s\"\n", size.w, size.h, title.c_str());
 		
 		std::string bytes=bytesForImageAtPath(path, size);
 		
@@ -247,9 +249,9 @@ int main (int argc, const char * argv[])
 	g_dicDB=new XTBDicDB(g_outputBundle+"/Images");
 	g_titlesList=fopen((g_outputBundle+"/Titles.txt").c_str(), "w");
 	
-	char buf[4096];
+	std::string buf;
 	
-	while(gets(buf)){
+	while(std::getline(std::cin, buf)){
 		handleFile(buf);
 	}
 	

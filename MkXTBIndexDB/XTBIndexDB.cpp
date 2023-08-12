@@ -35,8 +35,8 @@ XTBIndexDB::~XTBIndexDB(){
 
 void XTBIndexDB::writeEntries(){
 	fprintf(stderr,"writing %d entries...\n", (int)m_entries.size());
-	int prog1=0, prog1period=(int)m_entries.size()/2000;
-	int prog2=0, prog2period=prog1period*20;
+	int prog1=0, prog1period=(int)m_entries.size()/200;
+	int prog2=0, prog2period=prog1period*40;
 	
 	uint32_t entryCount=(uint32_t)m_entries.size();
 	entryCount=XTBSysToBE32(entryCount);
@@ -108,17 +108,15 @@ std::string XTBIndexDB::bytesForEntry(size_t entryId){
 void XTBIndexDB::writeEntry(const std::string &key,
 							const std::string &title){
 	if(key.empty()&&title.empty()){
-		fprintf(stderr, "warning: empty entry\n");
+		// fprintf(stderr, "warning: empty entry\n");
 		return;
 	}
 	if (key.empty()) {
-		fprintf(stderr, "warning: empty key to \"%s\"\n",
-				title.c_str());
+		// fprintf(stderr, "warning: empty key to \"%s\"\n", title.c_str());
 		return;
 	}
 	if (title.empty()) {
-		fprintf(stderr, "warning: \"%s\" leads to empty title\n",
-				key.c_str());
+		// fprintf(stderr, "warning: \"%s\" leads to empty title\n", key.c_str());
 		return;
 	}
 	m_entries.push_back(XTBIndexDBEntry(key, title));

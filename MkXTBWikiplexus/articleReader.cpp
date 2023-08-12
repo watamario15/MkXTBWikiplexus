@@ -69,8 +69,7 @@ void XTBReadArticles(XTBArticleReaderCallback callback,
 		}else if(nodeName=="#text"){
 			// skip.
 		}else{
-			fprintf(stderr, "warning: unknown element \"%s\"\n",
-					nodeName.c_str());
+			// fprintf(stderr, "warning: unknown element \"%s\"\n", nodeName.c_str());
 		}
 		
 		xmlTextReaderNext(reader);

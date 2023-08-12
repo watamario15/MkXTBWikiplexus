@@ -289,21 +289,21 @@ int main (int argc, const char * argv[]){
 			s=removeAccent(s);
 			s=yomiForText(s);
 			if(s.empty()){
-				fprintf(stderr, "warning: no yomi for \"%s\" (error?)\n",record[0].c_str());
+				// fprintf(stderr, "warning: no yomi for \"%s\" (error?)\n",record[0].c_str());
 				continue;
 			}
 			s=toHiragana(s);
 			s=removeSpaces(s);
 			toLowerInplace(s);
 			if(s.empty()){
-				fprintf(stderr, "warning: no output emitted for \"%s\" (with symbols)\n",record[0].c_str());
+				// fprintf(stderr, "warning: no output emitted for \"%s\" (with symbols)\n",record[0].c_str());
 				continue;
 			}
 			s2=s;
 			s=removeSymbols(s);
 			if(s.empty()){
-				fprintf(stderr, "warning: no output emitted for \"%s\" (without symbols, "
-						"with symbols: \"%s\")\n",record[0].c_str(), s2.c_str());
+				// fprintf(stderr, "warning: no output emitted for \"%s\" (without symbols, "
+				// 		"with symbols: \"%s\")\n",record[0].c_str(), s2.c_str());
 			
 				continue;
 			}
@@ -316,7 +316,7 @@ int main (int argc, const char * argv[]){
 				g_csvWriter->writeRecord(record);
 			}
 		}catch(const std::string& s){
-			fprintf(stderr, "error while processing \"%s\": %s\n", record[0].c_str(), s.c_str());
+			// fprintf(stderr, "error while processing \"%s\": %s\n", record[0].c_str(), s.c_str());
 		}
 		
 	}

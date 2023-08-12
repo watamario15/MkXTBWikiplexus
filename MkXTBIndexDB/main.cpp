@@ -18,7 +18,7 @@ static int entryCount=0;
 #pragma mark - Processor
 
 static void handleFile(const std::string& path){
-	fprintf(stderr,"processing \"%s\"...\n", path.c_str());
+	// fprintf(stderr,"processing \"%s\"...\n", path.c_str());
 	
 	CSVIOReader reader(path.c_str());
 	
@@ -36,10 +36,10 @@ static void handleFile(const std::string& path){
 		g_indexDb->writeEntry(record[0], record[1]);
 		
 		entryCount++;
-		if(entryCount%1000==0){
+		if(entryCount%10000==0){
 			fprintf(stderr, ".");
 		}
-		if(entryCount%10000==0){
+		if(entryCount%100000==0){
 			fprintf(stderr, "%d", entryCount);
 		}
 		
