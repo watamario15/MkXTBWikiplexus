@@ -257,14 +257,28 @@ std::string avoidDangerousChars(std::string s);
 
 int main (int argc, const char * argv[]){
 	initAllowedChars();
-	
-	g_csvReader=new CSVIOReader(stdin, false);
-	g_csvWriter=new CSVIOWriter(stdout, false);
-	
-	g_mecab=mecab_new2("");
-	if(!g_mecab){
-		fprintf(stderr, "fatal error: mecab: %s\n", mecab_strerror(NULL));
-		return 1;
+
+	if (argc >= 2) {
+		std::string m_arg="-d ";
+		m_arg+=argv[1];
+		g_mecab=mecab_new2(m_arg.c_str());
+		if(!g_mecab){
+			fprintf(stderr, "fatal error: mecab: is '%s' a valid mecab dictionary?\n", argv[1]);
+			fprintf(stderr, "usage: %s [/path/to/ipadic]\n", argv[0]);
+			return 1;
+		}
+	} else {
+		g_mecab=mecab_new2("");
+		if(!g_mecab) g_mecab=mecab_new2("-d /var/lib/mecab/dic/ipadic-utf8");
+		if(!g_mecab) g_mecab=mecab_new2("-d /var/lib/mecab/dic/ipadic");
+		if(!g_mecab) g_mecab=mecab_new2("-d /usr/local/lib/mecab/dic/ipadic-utf8");
+		if(!g_mecab) g_mecab=mecab_new2("-d /usr/local/lib/mecab/dic/ipadic");
+		if(!g_mecab) g_mecab=mecab_new2("-d /opt/homebrew/lib/mecab/dic/ipadic");
+		if(!g_mecab){
+			fprintf(stderr, "fatal error: mecab: failed to open a dictionary. try adding an argument indicating dictionary path.\n");
+			fprintf(stderr, "usage: %s [/path/to/ipadic]\n", argv[0]);
+			return 1;
+		}
 	}
 	
 	const char *kakasiOptions[]={
@@ -278,6 +292,9 @@ int main (int argc, const char * argv[]){
 		fprintf(stderr, "fatal error: error in kakasi.\n");
 		return 1;
 	}
+	
+	g_csvReader=new CSVIOReader(stdin, false);
+	g_csvWriter=new CSVIOWriter(stdout, false);
 	
 	CSVIORecord record;
 	while(record=g_csvReader->readRecord(), !record.empty()){

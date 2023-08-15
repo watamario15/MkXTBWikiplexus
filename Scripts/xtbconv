@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -e
 
-DICTDIR=${DICTDIR:-~/Dictionaries}
+DICTDIR=${DICTDIR:-${PWD}/Dictionaries}
 PLIST=${PLIST:-~/info-plists}
 WIKIMEDIA_MIRROR=${WIKIMEDIA_MIRROR:-https://dumps.wikimedia.org}
 
@@ -159,7 +159,7 @@ fi
 
 cd "$2-$3.xtbdict"
 echo "Running YomiGenesis..."
-YomiGenesis-bin < BaseNames.csv > Yomi.txt
+YomiGenesis-bin ${MECAB_DICT} < BaseNames.csv > Yomi.txt
 
 echo "Running MkXTBIndexDB..."
 MkXTBIndexDB-bin -o Search Yomi.txt
