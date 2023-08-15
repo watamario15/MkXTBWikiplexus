@@ -128,7 +128,7 @@ std::string toHiragana(std::string s){
 	return s;
 }
 
-std::string avoidDangeroudChars(std::string s){
+std::string avoidDangerousChars(std::string s){
 	s=replaceString(s, "〜", "ー");
 	s=replaceString(s, "～", "ー");
 	s=replaceString(s, "—", "-");

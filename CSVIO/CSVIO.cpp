@@ -12,7 +12,7 @@
 #pragma mark - Reader
 
 CSVIOReader::CSVIOReader(const char *path){
-	m_fileHandle=fopen(path, "r");
+	m_fileHandle=fopen(path, "rb");
 	if(!m_fileHandle){
 		throw std::string("fopen failed.");
 	}
@@ -53,6 +53,10 @@ CSVIORecord CSVIOReader::readRecord(){
 						continue;
 					}
 					inQuote=false;
+				}else if(*ptr == '\n' || *ptr == '\r'){
+					fprintf(stderr, "Encountered a quote error, YomiGenesis might be broken.\n");
+					inQuote = false;
+					continue;
 				}else{
 					currentCol+=*ptr;
 				}
@@ -82,7 +86,7 @@ CSVIORecord CSVIOReader::readRecord(){
 #pragma mark - Writer
 
 CSVIOWriter::CSVIOWriter(const char *path){
-	m_fileHandle=fopen(path, "w");
+	m_fileHandle=fopen(path, "wb");
 	if(!m_fileHandle){
 		throw std::string("fopen failed.");
 	}

@@ -122,15 +122,15 @@ static std::vector<std::string> splitString(const std::string& str, const std::s
 }
 
 static std::string tryKakasi(const std::string& str){
-	char *ret=kakasi_do(const_cast<char *>(str.c_str()));;
-	std::string s=ret;
-	//kakasi_free(ret);
-	return s;
+	return iconvString(
+		kakasi_do(const_cast<char *>(iconvString(str, "euc-jp//TRANSLIT//IGNORE", "utf-8").c_str())),
+		"utf-8",
+		"euc-jp"
+	);
 }
 
 static std::string yomiForText(const std::string& str){
 	std::string str2=replaceString(str, "〜", "ー");;
-	str2=iconvString(str2, "euc-jp//TRANSLIT//IGNORE", "utf-8");
 	
 	mecab_t *mecab=g_mecab;
 
@@ -162,7 +162,7 @@ static std::string yomiForText(const std::string& str){
 	}
 	
 	
-	return iconvString(outString, "utf-8", "euc-jp");
+	return outString;
 }
 
 static std::string removeSpaces(const std::string& str){
@@ -253,7 +253,7 @@ static void initAllowedChars(){
 	}
 }
 
-std::string avoidDangeroudChars(std::string s);
+std::string avoidDangerousChars(std::string s);
 
 int main (int argc, const char * argv[]){
 	initAllowedChars();
@@ -261,9 +261,9 @@ int main (int argc, const char * argv[]){
 	g_csvReader=new CSVIOReader(stdin, false);
 	g_csvWriter=new CSVIOWriter(stdout, false);
 	
-	g_mecab=mecab_new2("-d /var/lib/mecab/dic/ipadic");
+	g_mecab=mecab_new2("");
 	if(!g_mecab){
-		fprintf(stderr, "fatal error: error in mecab.\n");
+		fprintf(stderr, "fatal error: mecab: %s\n", mecab_strerror(NULL));
 		return 1;
 	}
 	
@@ -285,7 +285,7 @@ int main (int argc, const char * argv[]){
 			std::string s=record[0];
 			std::string s2;
 			// avoid error in iconv
-			s=avoidDangeroudChars(s);
+			s=avoidDangerousChars(s);
 			s=removeAccent(s);
 			s=yomiForText(s);
 			if(s.empty()){
