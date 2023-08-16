@@ -83,9 +83,9 @@ static void handleArticle(xmlNodePtr node, void *, long bytes){
 	}
 	g_oldBytes=bytes2;
 	
-	unsigned long long realBytes;
-	realBytes=bytes2;
-	realBytes+=0x100000000ULL*g_wrapCount;
+	// unsigned long long realBytes;
+	// realBytes=bytes2;
+	// realBytes+=0x100000000ULL*g_wrapCount;
 	
 	
 	// retrive the text.

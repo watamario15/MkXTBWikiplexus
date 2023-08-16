@@ -63,7 +63,8 @@ static std::string iconvString(const std::string& str, const char *toCode,
 	return iconvString(str, context.ic);
 }
 
-/* "trim" string. */
+/*
+// "trim" string.
 static std::string trimString(std::string str){
 	size_t pos, ln;
 	const char *ngs="\n\r \t";
@@ -92,6 +93,7 @@ static std::string trimString(std::string str){
 	// return
 	return str.substr(pos, ln);
 }
+*/
 
 static std::string replaceString(const std::string& str, const std::string& from, const std::string& to){
 	std::string::size_type pos=0;

@@ -8,9 +8,9 @@ CC=clang
 CXX=clang++
 LD=clang++
 
-CCFLAGS=-Wall -O3 -D_LARGEFILE_SOURCE=1 -D_LARGEFILE64_SOURCE=1 -D_FILE_OFFSET_BITS=64 -DNDEBUG -I/opt/homebrew/opt/mecab/include -I/opt/homebrew/opt/xz/include
+CCFLAGS=-arch x86_64 -arch arm64 -Wall -O3 -D_LARGEFILE_SOURCE=1 -D_LARGEFILE64_SOURCE=1 -D_FILE_OFFSET_BITS=64 -DNDEBUG -I/opt/homebrew/opt/xz/include
 CXXFLAGS=$(CCFLAGS)
-LDFLAGS=-L/opt/homebrew/opt/mecab/lib -lmecab -lkakasi -lxml2 -llzma -liconv
+LDFLAGS=-arch x86_64 -arch arm64 -lmecab -lkakasi -lxml2 -llzma -liconv
 TARGETPOSTFIX=-bin
 SRCDIR=..
 

@@ -1,17 +1,15 @@
 #!/usr/bin/env bash
 set -e
 
-DICTDIR=${DICTDIR:-${PWD}/Dictionaries}
+DICTDIR=${DICTDIR:-${PWD}}
 PLIST=${PLIST:-~/info-plists}
 WIKIMEDIA_MIRROR=${WIKIMEDIA_MIRROR:-https://dumps.wikimedia.org}
 
 get_7z() {
   if which 7z &> /dev/null; then
     echo 7z
-    return 0
   elif which 7zz &> /dev/null; then
     echo 7zz
-    return 0
   else
     echo "Error: 7-Zip not found." >&2
     return 127
@@ -21,26 +19,40 @@ get_7z() {
 get_magick() {
   if which magick &> /dev/null; then
     echo magick
-    return 0
   elif which convert &> /dev/null; then
     echo convert
-    return 0
   else
     echo "Error: ImageMagick not found." >&2
     return 127
   fi
 }
 
+get_nproc() {
+  if which nproc &> /dev/null; then
+    nproc
+  elif which getconf &> /dev/null; then
+    getconf _NPROCESSORS_ONLN
+  else
+    echo 1
+  fi
+}
+
 if [ $# -ne 3 ] && [ $# -ne 4 ]; then
   echo "XTBook dictionary convertion helper 2308"
-  echo "This script obtains a MediaWiki dump, converts it to XTBook format, and create a 7z archive for uploading."
+  echo "This script obtains a MediaWiki dump, converts it to XTBook format, and create a tarball for uploading."
   echo
   echo "Usage: $0 <source> <wiki name> <date> [split size]"
   echo "Examples: $0 wikimedia jawiki 20230101 1900M    # Japanese Wikipedia"
   echo "          $0 uncyclomedia jaunwiki 20230101 2G  # Japanese Uncyclopedia"
   echo "          $0 uncyclomedia jaunwikiimg 20230101  # Japanese Uncyclopedia Image"
   echo "          $0 fandom jabrain 20230101            # Japanese Brain Wiki"
-  echo "          $0 wiki.xml somewiki 20230101         # XML dump"
+  echo "          $0 wiki.xml somewiki 20230101         # Manually downloaded XML dump file"
+  echo
+  echo "Environment variables to control the behavior:"
+  echo "* DICTDIR - Path to a directory where to put a resulting dictionary."
+  echo "* PLIST - Path to a directory where Info.plist files are placed."
+  echo "* WIKIMEDIA_MIRROR - URL of a mirror server to use for Wikimedia. Example: https://mirror.accum.se/mirror/wikimedia.org/dumps"
+  echo "* MECAB_DICT - Path to a MeCab dictionary to use. Example: /var/lib/mecab/dic/ipadic"
   echo
   echo "Hints:"
   echo "* You may need to visit each dump file's distribution web site to obtain its actual name and release date."
@@ -79,13 +91,15 @@ elif [ "$1" = "uncyclomedia" ]; then
 
     echo "Downloading and extracting images..."
     curl -sSfLO "https://download.uncyc.org/${2%%unwikiimg*}-images.zip"
-    mkdir "${2%%unwikiimg*}-images"
+    rm -rf "${2%%unwikiimg*}-images"
     # o: overwrite, q: quiet, j: extract all files into the same directory, d: target directory
     unzip -oqj "${2%%unwikiimg*}-images.zip" -d "${2%%unwikiimg*}-images"
 
     echo "Converting and resizing images..."
-    mkdir resized
-    find ${2%%unwikiimg*}-images -type f -print0 | xargs -P$(nproc) -0 -I{} ${MAGICK} {} -set filename:orig '%f' -quality 85 -resize 800x480\> 'resized/%[filename:orig].jpg'
+    mkdir -p resized
+    rm -rf "resized/*"
+    find ${2%%unwikiimg*}-images -type f -print0 | xargs -P$(get_nproc) -0 -I{} ${MAGICK} {} -set filename:orig '%f' -quality 85 -resize 800x480\> 'resized/%[filename:orig].jpg' || true
+    test -n "$(ls resized)"
 
     echo "Running MkImageComplex..."
     find resized -name "*.jpg" | MkImageComplex-bin -o "$2-$3.xtbdict"

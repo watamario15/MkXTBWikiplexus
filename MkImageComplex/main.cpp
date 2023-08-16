@@ -10,7 +10,7 @@
 #include "stdafx.h"
 #include "../MkXTBWikiplexus/XTBDicDB.h"
 #include "../CSVIO/CSVIO.h"
-#include "../RichgelJpeg/jpegdecoder.h"
+#include "../RichgelJpeg/jpgd.h"
 #include <errno.h>
 #include "../MkXTBWikiplexus/utils.h"
 
@@ -32,10 +32,10 @@ struct XTBSize{
 #pragma mark - Jpeg Handling
 
 static XTBSize sizeForJpegAtPath(const std::string& path){
-	jpeg_decoder_file_stream stream;
+	jpgd::jpeg_decoder_file_stream stream;
 	stream.open(path.c_str());
 	
-	jpeg_decoder decoder(&stream, false);
+	jpgd::jpeg_decoder decoder(&stream, false);
 	if(decoder.get_error_code()){
 		throw std::string("error in jpgdlib. maybe file corrupted, or not jpeg file. this file was ignored.");
 	}

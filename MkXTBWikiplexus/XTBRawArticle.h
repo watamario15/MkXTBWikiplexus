@@ -12,8 +12,8 @@
 
 struct XTBRawArticleIndexItem{
 	int page;
-	std::string text;
 	int level;
+	std::string text;
 	XTBRawArticleIndexItem(int _page, int _level):
 	page(_page), level(_level){ /* leave text empty */}
 	XTBRawArticleIndexItem(int _page, int _level, const std::string& _text):

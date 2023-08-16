@@ -122,9 +122,9 @@ TPLString *TPLNumber::stringValue() const{
 	if(m_isBool)
 		return new TPLString(m_intValue?"true":"false");
 	if((double)m_intValue==m_doubleValue){
-		sprintf(buf, "%d", m_intValue);
+		snprintf(buf, sizeof(buf) / sizeof(buf[0]), "%d", m_intValue);
 	}else{
-		sprintf(buf, "%lf", m_doubleValue);
+		snprintf(buf, sizeof(buf) / sizeof(buf[0]), "%lf", m_doubleValue);
 	}
 	return new TPLString(buf);
 }

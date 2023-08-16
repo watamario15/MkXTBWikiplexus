@@ -9,6 +9,7 @@
 
 #include "stdafx.h"
 #include <signal.h>
+#include <cinttypes>
 
 static const uint8_t g_magicNumber[]={0x08, 0xde, 0x0f, 0x42};
 static const uint64_t g_rawFlag=0x8000000000000000ULL;
@@ -67,16 +68,16 @@ static void writeIndices(){
 
 static void printStatistics(){
 	puts("**** RAX STATISTICS ****");
-	printf("Input Bytes: %llu B\n", g_inputTotalSize);
-	printf("Output Bytes: %llu B\n", g_outputTotalSize);
+	printf("Input Bytes: %" PRIu64 " B\n", g_inputTotalSize);
+	printf("Output Bytes: %" PRIu64 " B\n", g_outputTotalSize);
 	printf("Ratio: %.2f%c\n", (double)g_outputTotalSize/(double)g_inputTotalSize*100.,
 		   '%');
 	printf("Block Size: %u B\n", (unsigned int)g_blockSize);
-	printf("XZ Blocks: %llu (%llu B Input)\n", g_lzmaBlocks,
+	printf("XZ Blocks: %" PRIu64 " (%" PRIu64 " B Input)\n", g_lzmaBlocks,
 		   g_lzmaBlocks*(uint64_t)g_blockSize);
-	printf("Raw Blocks: %llu (%llu B Input)\n", g_rawBlocks,
+	printf("Raw Blocks: %" PRIu64 " (%" PRIu64 " B Input)\n", g_rawBlocks,
 		   g_rawBlocks*(uint64_t)g_blockSize);
-	printf("Total Blocks: %llu\n", g_totalBlocks);
+	printf("Total Blocks: %" PRIu64 "\n", g_totalBlocks);
 }
 
 static void handleInterrupt(int){

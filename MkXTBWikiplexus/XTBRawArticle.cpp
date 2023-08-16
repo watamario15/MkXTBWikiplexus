@@ -18,7 +18,7 @@ XTBRawArticle::XTBRawArticle(const std::string& wiki){
 	
 	explode();
 	
-	size_t firstLines=g_lines.size();
+	// size_t firstLines=g_lines.size();
 	doBraceStuff();
 	
 	// fprintf(stderr,"clustered liness from %d to %d lines\n",

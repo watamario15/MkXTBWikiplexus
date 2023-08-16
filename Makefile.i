@@ -8,7 +8,7 @@ TARGET_INDEX=MkXTBIndexDB$(TARGETPOSTFIX)
 OBJS_INDEX=main_index.o XTBIndexDB.o CSVIO.o
 
 TARGET_IMAGECOMPLEX=MkImageComplex$(TARGETPOSTFIX)
-OBJS_IMAGECOMPLEX=main_imagecomplex.o XTBDicDB.o H2v2.o idct.o jpegdecoder.o utils.o
+OBJS_IMAGECOMPLEX=main_imagecomplex.o XTBDicDB.o jpgd.o utils.o
 
 TARGET_YOMI=YomiGenesis$(TARGETPOSTFIX)
 OBJS_YOMI=main_yomi.o toHiragana.o CSVIO.o removeAccent.o
@@ -78,14 +78,8 @@ XTBDicDB.o:				$(SRCDIR)/MkXTBWikiplexus/XTBDicDB.cpp
 XTBRawArticle.o:		$(SRCDIR)/MkXTBWikiplexus/XTBRawArticle.cpp
 						$(CXX) -c $(SRCDIR)/MkXTBWikiplexus/XTBRawArticle.cpp  $(CXXFLAGS)
 
-H2v2.o:				$(SRCDIR)/RichgelJpeg/H2v2.cpp
-						$(CXX) -c $(SRCDIR)/RichgelJpeg/H2v2.cpp  $(CXXFLAGS)
-
-idct.o:				$(SRCDIR)/RichgelJpeg/idct.cpp
-						$(CXX) -c $(SRCDIR)/RichgelJpeg/idct.cpp  $(CXXFLAGS)
-
-jpegdecoder.o:		$(SRCDIR)/RichgelJpeg/jpegdecoder.cpp
-						$(CXX) -c $(SRCDIR)/RichgelJpeg/jpegdecoder.cpp  $(CXXFLAGS)
+jpgd.o:		$(SRCDIR)/RichgelJpeg/jpgd.cpp
+						$(CXX) -c $(SRCDIR)/RichgelJpeg/jpgd.cpp -DJPGD_USE_SSE2=0 $(CXXFLAGS)
 
 main_yomi.o:			$(SRCDIR)/YomiGenesis/main.cpp
 						$(CXX) -c $(SRCDIR)/YomiGenesis/main.cpp  $(CXXFLAGS) -o main_yomi.o
