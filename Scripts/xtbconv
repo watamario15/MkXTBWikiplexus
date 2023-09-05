@@ -3,7 +3,6 @@ set -e
 
 DICTDIR=${DICTDIR:-${PWD}}
 PLIST=${PLIST:-~/info-plists}
-WIKIMEDIA_MIRROR=${WIKIMEDIA_MIRROR:-https://dumps.wikimedia.org}
 
 get_7z() {
   if which 7z &> /dev/null; then
@@ -71,8 +70,14 @@ mkdir -p "${DICTDIR}"
 cd "${DICTDIR}"
 if [ "$1" = "wikimedia" ]; then
   # Asserts that a dump exists as pipe doesn't exit with error even when it failed to download.
-  # I: Get header only, s: Suppress progress output, S: Show errors, f: Fail on error, L: Track redirect.
-  curl -IsSfL "$WIKIMEDIA_MIRROR/$2/$3/$2-$3-pages-articles.xml.bz2"
+  if [ -n "$WIKIMEDIA_MIRROR" ]; then
+    # I: Get header only, s: Suppress progress output, S: Show errors, f: Fail on error, L: Track redirect.
+    curl -IsSfL "$WIKIMEDIA_MIRROR/$2/$3/$2-$3-pages-articles.xml.bz2" \
+      || { curl -IsSfL "https://dumps.wikimedia.org/$2/$3/$2-$3-pages-articles.xml.bz2" && WIKIMEDIA_MIRROR=https://dumps.wikimedia.org; }
+  else 
+    curl -IsSfL "https://dumps.wikimedia.org/$2/$3/$2-$3-pages-articles.xml.bz2" \
+      && WIKIMEDIA_MIRROR=https://dumps.wikimedia.org
+  fi
 
   echo "Downloading and extracting an XML dump, and running MkXTBWikiplexus..."
   curl -sSfL "$WIKIMEDIA_MIRROR/$2/$3/$2-$3-pages-articles.xml.bz2" \
@@ -98,7 +103,7 @@ elif [ "$1" = "uncyclomedia" ]; then
     echo "Converting and resizing images..."
     mkdir -p resized
     rm -rf "resized/*"
-    find ${2%%unwikiimg*}-images -type f -print0 | xargs -P$(get_nproc) -0 -I{} ${MAGICK} {} -set filename:orig '%f' -quality 85 -resize 800x480\> 'resized/%[filename:orig].jpg' || true
+    find "${2%%unwikiimg*}-images" -type f -print0 | xargs -P"$(get_nproc)" -0 -I{} "${MAGICK}" {} -set filename:orig '%f' -quality 85 -resize 800x480\> 'resized/%[filename:orig].jpg' || true
     test -n "$(ls resized)"
 
     echo "Running MkImageComplex..."
@@ -173,7 +178,11 @@ fi
 
 cd "$2-$3.xtbdict"
 echo "Running YomiGenesis..."
-YomiGenesis-bin ${MECAB_DICT} < BaseNames.csv > Yomi.txt
+if [ -n "$MECAB_DICT" ]; then
+  YomiGenesis-bin "${MECAB_DICT}" < BaseNames.csv > Yomi.txt
+else
+  YomiGenesis-bin < BaseNames.csv > Yomi.txt
+fi
 
 echo "Running MkXTBIndexDB..."
 MkXTBIndexDB-bin -o Search Yomi.txt
