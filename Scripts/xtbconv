@@ -5,10 +5,10 @@ DICTDIR=${DICTDIR:-${PWD}}
 PLIST=${PLIST:-~/info-plists}
 
 get_7z() {
-  if which 7z &> /dev/null; then
-    echo 7z
-  elif which 7zz &> /dev/null; then
+  if which 7zz &> /dev/null; then  # Official 7-Zip
     echo 7zz
+  elif which 7z &> /dev/null; then  # Ancient unofficial p7zip
+    echo 7z
   else
     echo "Error: 7-Zip not found." >&2
     return 127
@@ -37,15 +37,15 @@ get_nproc() {
 }
 
 if [ $# -ne 3 ] && [ $# -ne 4 ]; then
-  echo "XTBook dictionary convertion helper 2308"
+  echo "XTBook dictionary convertion helper 2407"
   echo "This script obtains a MediaWiki dump, converts it to XTBook format, and create a tarball for uploading."
   echo
   echo "Usage: $0 <source> <wiki name> <date> [split size]"
-  echo "Examples: $0 wikimedia jawiki 20230101 1900M    # Japanese Wikipedia"
-  echo "          $0 uncyclomedia jaunwiki 20230101 2G  # Japanese Uncyclopedia"
-  echo "          $0 uncyclomedia jaunwikiimg 20230101  # Japanese Uncyclopedia Image"
-  echo "          $0 fandom jabrain 20230101            # Japanese Brain Wiki"
-  echo "          $0 wiki.xml somewiki 20230101         # Manually downloaded XML dump file"
+  echo "Examples: $0 wikimedia jawiki 20240101 1900M    # Japanese Wikipedia"
+  echo "          $0 uncyclomedia jaunwiki 20240101 2G  # Japanese Uncyclopedia"
+  echo "          $0 uncyclomedia jaunwikiimg 20240101  # Japanese Uncyclopedia Image"
+  echo "          $0 fandom jabrain 20240101            # Japanese Brain Wiki"
+  echo "          $0 wiki.xml somewiki 20240101         # Manually downloaded XML dump file"
   echo
   echo "Environment variables to control the behavior:"
   echo "* DICTDIR - Path to a directory where to put a resulting dictionary."
@@ -194,8 +194,8 @@ if [ -e "${PLIST}/$2.plist" ]; then
   cd ..
   echo "Archiving..."
   if [ $# -eq 4 ]; then
-    tar cf - "$2-$3.xtbdict" | split --numeric-suffixes=1 -a 3 -b "$4" - "$2-$3.xtbdict.tar."
-    test "${PIPESTATUS[0]}" -eq 0
+    SEVENZ=$(get_7z)
+    ${SEVENZ} a -v1900m "$2-$3.xtbdict.tar" "$2-$3.xtbdict"
   else
     tar cf "$2-$3.xtbdict.tar" "$2-$3.xtbdict"
   fi
