@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-set -e
+set -euo pipefail
 
 DICTDIR=${DICTDIR:-${PWD}}
 PLIST=${PLIST:-~/info-plists}
@@ -37,15 +37,15 @@ get_nproc() {
 }
 
 if [ $# -ne 3 ] && [ $# -ne 4 ]; then
-  echo "XTBook dictionary convertion helper 2407"
+  echo "XTBook dictionary conversion helper version 2412"
   echo "This script obtains a MediaWiki dump, converts it to XTBook format, and create a tarball for uploading."
   echo
-  echo "Usage: $0 <source> <wiki name> <date> [split size]"
-  echo "Examples: $0 wikimedia jawiki 20240101 1900M    # Japanese Wikipedia"
-  echo "          $0 uncyclomedia jaunwiki 20240101 2G  # Japanese Uncyclopedia"
-  echo "          $0 uncyclomedia jaunwikiimg 20240101  # Japanese Uncyclopedia Image"
-  echo "          $0 fandom jabrain 20240101            # Japanese Brain Wiki"
-  echo "          $0 wiki.xml somewiki 20240101         # Manually downloaded XML dump file"
+  echo "Usage: $(basename "$0") <source> <wiki name> <date> [split size]"
+  echo "Examples: $(basename "$0") wikimedia jawiki 20250101 1900M    # Japanese Wikipedia"
+  echo "          $(basename "$0") uncyclomedia jaunwiki 20250101 2G  # Japanese Uncyclopedia"
+  echo "          $(basename "$0") uncyclomedia jaunwikiimg 20250101  # Japanese Uncyclopedia Image"
+  echo "          $(basename "$0") fandom jabrain 20250101            # Japanese Brain Wiki"
+  echo "          $(basename "$0") wiki.xml somewiki 20250101         # Manually downloaded XML dump file"
   echo
   echo "Environment variables to control the behavior:"
   echo "* DICTDIR - Path to a directory where to put a resulting dictionary."
@@ -62,21 +62,22 @@ if [ $# -ne 3 ] && [ $# -ne 4 ]; then
   echo "* You don't need an archive to use the dictionary on XTBook, and you can cancel the process if you don't need it."
   echo "  It's basically just for me; needs to keep the OSDN repository updated."
   echo "* Check the console log when you find the converted data corrupted. You may find the reason there."
-  echo "* You need *7-Zip (7zz or 7z)* for Fandom and *ImageMagick* for Uncyclopedia Image installed."
+  echo "* You need *7-Zip (7zz or 7z)* for Fandom and archiving, and *ImageMagick* for Uncyclopedia Image installed."
   exit
 fi
 
 mkdir -p "${DICTDIR}"
 cd "${DICTDIR}"
 if [ "$1" = "wikimedia" ]; then
-  # Asserts that a dump exists as pipe doesn't exit with error even when it failed to download.
-  if [ -n "$WIKIMEDIA_MIRROR" ]; then
+  if [ -n "${WIKIMEDIA_MIRROR:-}" ]; then
     # I: Get header only, s: Suppress progress output, S: Show errors, f: Fail on error, L: Track redirect.
-    curl -IsSfL "$WIKIMEDIA_MIRROR/$2/$3/$2-$3-pages-articles.xml.bz2" \
-      || { curl -IsSfL "https://dumps.wikimedia.org/$2/$3/$2-$3-pages-articles.xml.bz2" && WIKIMEDIA_MIRROR=https://dumps.wikimedia.org; }
+    if ! curl -IsSfL "$WIKIMEDIA_MIRROR/$2/$3/$2-$3-pages-articles.xml.bz2"; then
+      curl -IsSfL "https://dumps.wikimedia.org/$2/$3/$2-$3-pages-articles.xml.bz2"
+      WIKIMEDIA_MIRROR=https://dumps.wikimedia.org
+    fi
   else 
-    curl -IsSfL "https://dumps.wikimedia.org/$2/$3/$2-$3-pages-articles.xml.bz2" \
-      && WIKIMEDIA_MIRROR=https://dumps.wikimedia.org
+    curl -IsSfL "https://dumps.wikimedia.org/$2/$3/$2-$3-pages-articles.xml.bz2"
+    WIKIMEDIA_MIRROR=https://dumps.wikimedia.org
   fi
 
   echo "Downloading and extracting an XML dump, and running MkXTBWikiplexus..."
@@ -84,10 +85,6 @@ if [ "$1" = "wikimedia" ]; then
     | bunzip2 \
     | MkXTBWikiplexus-bin -o "$2-$3.xtbdict" -s -x1 -x2 -x3 -x4 -x5 -x6 -x7 -x8 -x9 -x11 -x12 -x13 -x14 -x15 -x110 -x111 -x117 -m \
     | MkRax-bin -o Articles.db.rax
-  result=( "${PIPESTATUS[@]}" )
-  test "${result[0]}" -eq 0
-  test "${result[1]}" -eq 0
-  test "${result[2]}" -eq 0
   mv Articles.db.rax "$2-$3.xtbdict/"
 
 elif [ "$1" = "uncyclomedia" ]; then
@@ -108,7 +105,6 @@ elif [ "$1" = "uncyclomedia" ]; then
 
     echo "Running MkImageComplex..."
     find resized -name "*.jpg" | MkImageComplex-bin -o "$2-$3.xtbdict"
-    test "${PIPESTATUS[0]}" -eq 0
 
     echo "Finalizing..."
     rm -rf resized "${2%%unwikiimg*}-images" "$2-$3.xtbdict/Titles.txt" "${2%%unwikiimg*}-images.zip"
@@ -117,7 +113,6 @@ elif [ "$1" = "uncyclomedia" ]; then
       echo "Archiving..."
       if [ $# -eq 4 ]; then
         tar cf - "$2-$3.xtbdict" | split --numeric-suffixes=1 -a 3 -b "$4" - "$2-$3.xtbdict.tar."
-        test "${PIPESTATUS[0]}" -eq 0
       else
         tar cf "$2-$3.xtbdict.tar" "$2-$3.xtbdict"
       fi
@@ -136,10 +131,6 @@ elif [ "$1" = "uncyclomedia" ]; then
       | bunzip2 \
       | MkXTBWikiplexus-bin -o "$2-$3.xtbdict" -s -x1 -x2 -x3 -x4 -x5 -x6 -x7 -x8 -x9 -x11 -x12 -x13 -x14 -x15 -x110 -x111 -x117 -m \
       | MkRax-bin -o Articles.db.rax
-    result=( "${PIPESTATUS[@]}" )
-    test "${result[0]}" -eq 0
-    test "${result[1]}" -eq 0
-    test "${result[2]}" -eq 0
     mv Articles.db.rax "$2-$3.xtbdict/"
 
   else
@@ -156,9 +147,6 @@ elif [ "$1" = "fandom" ]; then
   ${SEVENZ} x "$2_pages_current.xml.7z" -so \
     | MkXTBWikiplexus-bin -o "$2-$3.xtbdict" -s -x1 -x2 -x3 -x4 -x5 -x6 -x7 -x8 -x9 -x11 -x12 -x13 -x14 -x15 -x110 -x111 -x117 -m \
     | MkRax-bin -o Articles.db.rax
-  result=( "${PIPESTATUS[@]}" )
-  test "${result[0]}" -eq 0
-  test "${result[1]}" -eq 0
   mv Articles.db.rax "$2-$3.xtbdict/"
   rm -f "$2_pages_current.xml.7z"
 
@@ -167,7 +155,6 @@ elif [[ $1 = *.xml ]]; then
 
   echo "Running MkXTBWikiplexus..."
   MkXTBWikiplexus-bin -o "$2-$3.xtbdict" -s -x1 -x2 -x3 -x4 -x5 -x6 -x7 -x8 -x9 -x11 -x12 -x13 -x14 -x15 -x110 -x111 -x117 -m < "$1" | MkRax-bin -o Articles.db.rax
-  test "${PIPESTATUS[0]}" -eq 0
   mv Articles.db.rax "$2-$3.xtbdict/"
 
 else
@@ -178,7 +165,7 @@ fi
 
 cd "$2-$3.xtbdict"
 echo "Running YomiGenesis..."
-if [ -n "$MECAB_DICT" ]; then
+if [ -n "${MECAB_DICT:-}" ]; then
   YomiGenesis-bin "${MECAB_DICT}" < BaseNames.csv > Yomi.txt
 else
   YomiGenesis-bin < BaseNames.csv > Yomi.txt
